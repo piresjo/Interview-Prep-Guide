@@ -7,6 +7,9 @@ def populateDict(str, dictVal):
     return dictVal
 
 def isPerm(str1, str2):
+    if str1 is None or str2 is None:
+        return False
+
     if len(str1) != len(str2):
         return False
     

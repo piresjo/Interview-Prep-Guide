@@ -7,14 +7,19 @@ def populateDict(str, dictVal):
     return dictVal
 
 def permOfPalindrome(str):
+    if str is None:
+        return False
+
     isEvenLen = (len(str) % 2 == 0)
     oddCountMax = 0 if isEvenLen else 1
     oddCount = 0
 
     strDict = populateDict(str, {})
 
-    for k, v in strDict:
-        if (v % 2 != 0):
+    print(strDict)
+
+    for k in strDict:
+        if (strDict[k] % 2 != 0):
             oddCount += 1
             if oddCount > oddCountMax:
                 return False

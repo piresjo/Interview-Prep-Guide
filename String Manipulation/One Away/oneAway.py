@@ -25,19 +25,19 @@ def oneAwayOrLess(str1, str2):
     smallerDict = None
 
     if abs(len(str1))- abs(len(str2)) == 1:
-        biggerDict = str1Dict if (len(str1) > len(str2)) else str2
-        smallerDict =  str1Dict if (len(str1) < len(str2)) else str2
+        biggerDict = str1Dict if (len(str1) > len(str2)) else str2Dict
+        smallerDict =  str1Dict if (len(str1) < len(str2)) else str2Dict
     else:
         biggerDict = str1Dict
         smallerDict = str2Dict
 
     numIncorrect = 0
 
-    for k, v in biggerDict:
+    for k in biggerDict:
         if k not in smallerDict:
             numIncorrect += 1
         else:
-            numIncorrect += (v - smallerDict[k])
+            numIncorrect += (biggerDict[k] - smallerDict[k])
         if numIncorrect > 1:
             return False
     return True
