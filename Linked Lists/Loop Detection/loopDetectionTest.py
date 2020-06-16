@@ -10,8 +10,6 @@ class TestStringMethods(unittest.TestCase):
         test = LinkedList(20, LinkedList(25, None))
         self.assertIsNone(whereIsLoop(test))
 
-    # For some reason, the last test in this file always sends a noneType, 
-    # despite the code declaring otherwise. Will take a look later (TODO)
     def testSingle(self):
         testHead = LinkedList(20, None)
         self.assertIsNone(whereIsLoop(testHead))

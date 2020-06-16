@@ -1,4 +1,7 @@
 def whereIsLoop(head):
+    if head is None:
+        return None
+
     pointer1 = head
     pointer2 = head
 
