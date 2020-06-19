@@ -14,6 +14,40 @@ def levelOrder(root):
     returnString = returnString.strip()
     return returnString
 
+def inOrder(root):
+    if root is None:
+        return ""
+    if root.left is None and root.right is not None:
+        return str(root.data) + ' ' + inOrder(root.right)
+    if root.right is None and root.left is not None:
+        return inOrder(root.left) + ' ' + str(root.data)
+    if root.right is None and root.left is None:
+        return str(root.data)
+    return inOrder(root.left) +  ' ' + str(root.data) + ' ' + inOrder(root.right)
+
+def preOrder(root):
+    if root is None:
+        return ""
+    if root.left is None and root.right is not None:
+        return inOrder(root.right) + ' ' + str(root.data)
+    if root.right is None and root.left is not None:
+        return inOrder(root.left) + ' ' + str(root.data)
+    if root.right is None and root.left is None:
+        return str(root.data)
+    return inOrder(root.left) +  ' ' + inOrder(root.right) + ' ' + str(root.data) 
+
+def postOrder(root):
+    if root is None:
+        return ""
+    if root.left is None and root.right is not None:
+        return str(root.data) + ' ' + inOrder(root.right)
+    if root.right is None and root.left is not None:
+        return str(root.data) + inOrder(root.left)
+    if root.right is None and root.left is None:
+        return str(root.data)
+    return str(root.data) + ' ' + inOrder(root.left) +  ' ' + inOrder(root.right)
+    
+
 
 class BSTNode:
   def __init__(self, data):
