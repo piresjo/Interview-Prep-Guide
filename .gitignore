@@ -1,2 +1,21 @@
 
 *.pyc
+*.xml
+*.resources
+*.prefs
+Java/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache
+Java/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache
+*.xmi
+*.zip
+*.lock
+*.lock
+*.setup
+*.log
+*.log
+*.dat
+Java/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps
+Java/.metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt
+Java/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache
+Java/.metadata/.mylyn/.taskListIndex/segments_1
+*.ini
+Java/.metadata/.plugins/org.eclipse.ui.intro/introstate
