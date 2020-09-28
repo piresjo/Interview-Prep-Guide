@@ -18,9 +18,31 @@ This is a collection of notes and sample coding challenges I've been using for i
 #### Unique Strings
 [Solution and Test File](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/String%20Manipulation/Unique%20Strings)
 ### Linked Lists
-Coming Soon
+#### Check If Palindrome
+[Check If Palindrome](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Linked%20Lists/Check%20If%20Palindrome)
+#### Delete Middle Node
+[Delete Middle Node](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Linked%20Lists/Delete%20Middle%20Node)
+#### Loop Detection
+[Loop Detection](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Linked%20Lists/Loop%20Detection)
+#### List Intersection
+[List Intersection](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Linked%20Lists/List%20Intersection)
+#### Kth To Last
+[Kth To Last](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Linked%20Lists/Kth%20To%20Last)
 ### Trees and Graphs
-Coming Soon
+#### Check If Balanced
+[Check If Balanced](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Graphs%20and%20Trees/Check%20If%20Balanced)
+#### Check If BST
+[Check If BST](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Graphs%20and%20Trees/Check%20If%20BST)
+#### Constructing Minimal Tree
+[Construct Minimal Tree](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Graphs%20and%20Trees/Construct%20Minimal%20Tree)
+#### Is Subtree
+[Is Subtree](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Graphs%20and%20Trees/Is%20Subtree)
+#### List Of Depths
+[List Of Depths](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Graphs%20and%20Trees/List%20of%20Depths)
+#### Searching
+[Searching](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Graphs%20and%20Trees/Searching)
+#### Traversals
+[Traversals](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Graphs%20and%20Trees/Traversals)
 ### OOP
 Coming Soon
 ### Recursion and Dynamic Programming
