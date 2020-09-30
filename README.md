@@ -51,6 +51,21 @@ Coming Soon
 ## Codesignal Problems
 Coming Soon
 ## Leetcode Problems
-Coming Soon
+| Problem                              | LeetCode Link                                                                   | Solution Link |
+|--------------------------------------|---------------------------------------------------------------------------------|---------------|
+| Average Of Levels In Binary Tree     | [Link](https://leetcode.com/problems/average-of-levels-in-binary-tree/)         |               |
+| Binary Tree Longest Consecutive Path | [Link](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/) |               |
+| Binary Tree Right Side View          | [Link](https://leetcode.com/problems/binary-tree-right-side-view/)              |               |
+| Merge K Sorted Lists                 | [Link](https://leetcode.com/problems/merge-k-sorted-lists/)                     |               |
+| Modes Of BSTs                        | [Link](https://leetcode.com/problems/find-mode-in-binary-search-tree/)          |               |
+| Number Of Islands                    | [Link](https://leetcode.com/problems/number-of-islands/)                        |               |
+| Score Of Parentheses                 | [Link](https://leetcode.com/problems/score-of-parentheses)                      |               |
+| Single Number                        |                                                                                 |               |
+| Trapping Rainwater                   |                                                                                 |               |
+| Two Sum                              |                                                                                 |               |
+| Unique Paths                         |                                                                                 |               |
+| Word Search                          |                                                                                 |               |
 ## Data Structures and Algorithms
+Coming Soon
+## Daily Byte Problems
 Coming Soon
