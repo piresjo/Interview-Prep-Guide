@@ -60,12 +60,17 @@ Coming Soon
 | Modes Of BSTs                        | [Link](https://leetcode.com/problems/find-mode-in-binary-search-tree/)          |               |
 | Number Of Islands                    | [Link](https://leetcode.com/problems/number-of-islands/)                        |               |
 | Score Of Parentheses                 | [Link](https://leetcode.com/problems/score-of-parentheses)                      |               |
-| Single Number                        |                                                                                 |               |
-| Trapping Rainwater                   |                                                                                 |               |
-| Two Sum                              |                                                                                 |               |
-| Unique Paths                         |                                                                                 |               |
-| Word Search                          |                                                                                 |               |
+| Single Number                        | [Link](https://leetcode.com/problems/single-number)                                                                                |               |
+| Trapping Rainwater                   | [Link](https://leetcode.com/problems/trapping-rain-water/)                                                                                |               |
+| Two Sum                              | [Link] (https://leetcode.com/problems/two-sum/)                                                                                |               |
+| Unique Paths                         | [Link](https://leetcode.com/problems/unique-paths/)                                                                                |               |
+| Word Search                          | [Link](https://leetcode.com/problems/word-search/)                                                                                |               |
 ## Data Structures and Algorithms
 Coming Soon
 ## Daily Byte Problems
-Coming Soon
+| Problem                | Date of Problem | Solution Link                                                                                                    |
+|------------------------|-----------------|------------------------------------------------------------------------------------------------------------------|
+| Reverse String         |                 | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Reverse%20String)         |
+| Vacuum Path            | 9-29-2020       | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Vacuum%20Path)            |
+| Correct Capitalization | 9-30-2020       | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Correct%20Capitalization) |
+|                        |                 |                                                                                                                  |

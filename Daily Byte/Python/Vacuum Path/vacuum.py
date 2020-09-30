@@ -1,3 +1,9 @@
+''' General Idea:
+    If the vacuumer is back in place, it's horizontalDistance and verticalDistance from starting
+    point should both be zero. So, set up horizontalDistance and verticalDistance values, have them increase
+    when going right/up, and have them decrease when going left/down.
+'''
+
 def vacuum(strVal):
     horizontalDistance = 0
     verticalDistance = 0

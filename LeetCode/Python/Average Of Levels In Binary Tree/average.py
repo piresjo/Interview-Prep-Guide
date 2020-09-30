@@ -1,3 +1,9 @@
+''' General Idea:
+    Given the description of the problem, we have to do a BFS, keeping track of the size of each row
+    The reason for this is so that once we reach the end of a row, we can calculate the average value of 
+    each row.
+'''
+
 def averageOfLevels(root):
     if root is None:
         return []
