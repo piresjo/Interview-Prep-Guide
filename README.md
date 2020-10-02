@@ -53,16 +53,16 @@ Coming Soon
 ## Leetcode Problems
 | Problem                              | LeetCode Link                                                                   | Solution Link |
 |--------------------------------------|---------------------------------------------------------------------------------|---------------|
-| Average Of Levels In Binary Tree     | [Link](https://leetcode.com/problems/average-of-levels-in-binary-tree/)         |               |
-| Binary Tree Longest Consecutive Path | [Link](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/) |               |
-| Binary Tree Right Side View          | [Link](https://leetcode.com/problems/binary-tree-right-side-view/)              |               |
-| Merge K Sorted Lists                 | [Link](https://leetcode.com/problems/merge-k-sorted-lists/)                     |               |
-| Modes Of BSTs                        | [Link](https://leetcode.com/problems/find-mode-in-binary-search-tree/)          |               |
-| Number Of Islands                    | [Link](https://leetcode.com/problems/number-of-islands/)                        |               |
-| Score Of Parentheses                 | [Link](https://leetcode.com/problems/score-of-parentheses)                      |               |
-| Single Number                        | [Link](https://leetcode.com/problems/single-number)                                                                                |               |
-| Trapping Rainwater                   | [Link](https://leetcode.com/problems/trapping-rain-water/)                                                                                |               |
-| Two Sum                              | [Link] (https://leetcode.com/problems/two-sum/)                                                                                |               |
+| Average Of Levels In Binary Tree     | [Link](https://leetcode.com/problems/average-of-levels-in-binary-tree/)         | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/LeetCode/Python/Average%20Of%20Levels%20In%20Binary%20Tree)              |
+| Binary Tree Longest Consecutive Path | [Link](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/) | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/LeetCode/Python/Binary%20Tree%20Longest%20Consecutive)              |
+| Binary Tree Right Side View          | [Link](https://leetcode.com/problems/binary-tree-right-side-view/)              | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/LeetCode/Python/Binary%20Tree%20Right%20Side%20View)              |
+| Merge K Sorted Lists                 | [Link](https://leetcode.com/problems/merge-k-sorted-lists/)                     | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/LeetCode/Python/Merge%20K%20Sorted%20Lists)              |
+| Modes Of BSTs                        | [Link](https://leetcode.com/problems/find-mode-in-binary-search-tree/)          | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/LeetCode/Python/Modes%20Of%20BST)              |
+| Number Of Islands                    | [Link](https://leetcode.com/problems/number-of-islands/)                        | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/LeetCode/Python/Number%20Of%20Islands)              |
+| Score Of Parentheses                 | [Link](https://leetcode.com/problems/score-of-parentheses)                      | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/LeetCode/Python/Score%20of%20Parentheses)               |
+| Single Number                        | [Link](https://leetcode.com/problems/single-number)                                                                                | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/LeetCode/Python/Single%20Number)              |
+| Trapping Rainwater                   | [Link](https://leetcode.com/problems/trapping-rain-water/)                                                                                | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/LeetCode/Python/Trapping%20Rainwater)              |
+| Two Sum                              | [Link](https://leetcode.com/problems/two-sum/)                                                                                |               |
 | Unique Paths                         | [Link](https://leetcode.com/problems/unique-paths/)                                                                                |               |
 | Word Search                          | [Link](https://leetcode.com/problems/word-search/)                                                                                |               |
 ## Data Structures and Algorithms
