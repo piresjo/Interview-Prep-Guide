@@ -1,3 +1,9 @@
+'''
+    General idea: for logarithmic time, we can do binary search.
+    Once we find the value whose preceding value is greater than it,
+    we have found the min in the rotated sorted array.
+'''
+
 def findMin(nums):
     if not nums or len(nums) == 0:
         return -1

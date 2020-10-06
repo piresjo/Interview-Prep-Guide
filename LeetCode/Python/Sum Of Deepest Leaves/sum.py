@@ -1,3 +1,9 @@
+'''
+    General Idea - We can do BFS while keeping track of the layers
+    As we go through each layer, we replace the sum of the layer. The sum of
+    the deepest layer will be the last sum value we get, which we return
+'''
+
 def deepestLeavesSum(root):
     if root is None:
         return 0
