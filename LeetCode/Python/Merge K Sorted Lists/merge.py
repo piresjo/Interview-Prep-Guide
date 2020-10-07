@@ -1,3 +1,14 @@
+'''
+    General idea: An easy way to do this is through heapsort.
+    In other words, feed all the contents of the lists into a heap
+    (python defaults to a minheap with heapq).
+
+    When you create the new list to return, it's easier to create a dummy head,
+    and make the real head the next node after that. With that, keep popping values
+    from the minheap and create a new node based off that, adding that to the
+    list.
+'''
+
 import heapq
 
 def mergeKLists(self, lists: List[ListNode]) -> ListNode:

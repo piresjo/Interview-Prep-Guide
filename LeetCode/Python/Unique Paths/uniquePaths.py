@@ -1,3 +1,16 @@
+'''
+    General Idea: This is a DP problem using a 2D array.
+    We have two base cases, if either m or n is 0 (return 0, since there's nowhere to go)
+    or if either m or n is 1 (return 1, since you can only go down/right)
+
+    For the solution matrix, create the m * n matrix, and fill in for the base cases.
+    We don't have to worry about the 0 base case, but we need to factor in the 1
+    base case. Once we do that, than for all the other sections in the matrix,
+    we add the number of paths to get to the space above you and the number
+    of paths to get to the space to the left of you; the sum of those gets 
+    you the number of paths for that section of the matrix.
+'''
+
 def uniquePaths(self, m: int, n: int) -> int:
     if m == 0 or n == 0:
         return 0

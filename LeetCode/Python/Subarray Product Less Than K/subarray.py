@@ -1,3 +1,12 @@
+'''
+    General Idea: Utilize a sliding window, multiplying and dividing to
+    ensure the less than k parameter (and if we divide, we update the left
+    value).
+
+    For each value of right, the number of intervals with subarray product
+    less than k is 'right - left + 1'
+'''
+
 def numSubarrayProductLessThanK(nums, k):
     if k <= 1:
         return 0
