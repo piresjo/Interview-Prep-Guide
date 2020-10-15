@@ -100,9 +100,15 @@ Coming Soon
 ## Data Structures and Algorithms
 Coming Soon
 ## Daily Byte Problems
-| Problem                | Date of Problem | Solution Link                                                                                                    |
-|------------------------|-----------------|------------------------------------------------------------------------------------------------------------------|
-| Reverse String         |                 | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Reverse%20String)         |
-| Vacuum Path            | 9-29-2020       | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Vacuum%20Path)            |
-| Correct Capitalization | 9-30-2020       | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Correct%20Capitalization) |
-|                        |                 |                                                                                                                  |
+| Problem                 | Date Of Problem | Solution Link                                                                                                                                                     |
+|-------------------------|-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Reverse String          |                 | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Reverse%20String)[                                                         |
+| Vacuum Path             | 9-29-2020       | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Vacuum%20Path)                                                             |
+| Correct Capitalization  | 9-30-2020       | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Correct%20Capitalization)                                                  |
+| Spot The Difference     | 10-08-2020      | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Spot%20The%20Difference)                                                   |
+| Intersection Of Numbers | 10-09-2020      | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Intersection%20Of%20Numbers)                                               |
+| Uncommon Words          | 10-10-2020      | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Uncommon%20Words)                                                          |
+| Merge Linked Lists      | 10-11-2020      | [Link From LeetCode Solution](https://github.com/piresjo/Interview-Prep-Guide/tree/master/LeetCode/Python/Merge%20K%20Sorted%20Lists)                             |
+| Remove Nth To Last Node | 10-12-2020      | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Remove%20Kth%20Element%20From%20List)                                      |
+| Find Middle Element     | 10-14-2020      | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Find%20Middle%20Element)                                                   |
+| Contains Cycle          | 10-15-2020      | [Link From CTCI Solution](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Linked%20Lists/Loop%20Detection) |
