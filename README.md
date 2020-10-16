@@ -121,6 +121,10 @@ Coming Soon
 | Reverse String          |                 | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Reverse%20String)[                                                         |
 | Vacuum Path             | 9-29-2020       | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Vacuum%20Path)                                                             |
 | Correct Capitalization  | 9-30-2020       | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Correct%20Capitalization)                                                  |
+| Add Binary              | 10-01-2020      | [Link From Leetcode Solution](https://github.com/piresjo/Interview-Prep-Guide/tree/master/LeetCode/Python/Add%20Binary) |
+| Longest Common Prefix   | 10-02-2020      | [Link From Leetcode Solution](https://github.com/piresjo/Interview-Prep-Guide/tree/master/LeetCode/Python/Largest%20Common%20Prefix) |
+| Two Sum                 | 10-04-2020      | [Link From Leetcode Solution](https://github.com/piresjo/Interview-Prep-Guide/tree/master/LeetCode/Python/Two%20Sum) |
+| First Unique Character  | 10-07-2020      | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/First%20Unique%20Character) |
 | Spot The Difference     | 10-08-2020      | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Spot%20The%20Difference)                                                   |
 | Intersection Of Numbers | 10-09-2020      | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Intersection%20Of%20Numbers)                                               |
 | Uncommon Words          | 10-10-2020      | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Uncommon%20Words)                                                          |
