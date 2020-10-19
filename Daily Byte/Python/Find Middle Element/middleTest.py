@@ -19,11 +19,5 @@ class Test(unittest.TestCase):
         nodeB.next = None
         self.assertEqual(findMiddle(nodeA).value, nodeA.value)
 
-
-    
-
-
-   
-
 if __name__ == '__main__':
    unittest.main()
