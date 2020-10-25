@@ -118,12 +118,13 @@ Coming Soon
 ## Daily Byte Problems
 | Problem                 | Date Of Problem | Solution Link                                                                                                                                                     |
 |-------------------------|-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Reverse String          |                 | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Reverse%20String)[                                                         |
+| Reverse String          | 9-27-2020       | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Reverse%20String)                                                          |
 | Vacuum Path             | 9-29-2020       | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Vacuum%20Path)                                                             |
 | Correct Capitalization  | 9-30-2020       | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Correct%20Capitalization)                                                  |
 | Add Binary              | 10-01-2020      | [Link From Leetcode Solution](https://github.com/piresjo/Interview-Prep-Guide/tree/master/LeetCode/Python/Add%20Binary) |
 | Longest Common Prefix   | 10-02-2020      | [Link From Leetcode Solution](https://github.com/piresjo/Interview-Prep-Guide/tree/master/LeetCode/Python/Largest%20Common%20Prefix) |
 | Two Sum                 | 10-04-2020      | [Link From Leetcode Solution](https://github.com/piresjo/Interview-Prep-Guide/tree/master/LeetCode/Python/Two%20Sum) |
+| Jewels and Stones       | 10-05-2020      | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Jewels%20and%20Stones) |
 | First Unique Character  | 10-07-2020      | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/First%20Unique%20Character) |
 | Spot The Difference     | 10-08-2020      | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Spot%20The%20Difference)                                                   |
 | Intersection Of Numbers | 10-09-2020      | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Intersection%20Of%20Numbers)                                               |
@@ -132,3 +133,7 @@ Coming Soon
 | Remove Nth To Last Node | 10-12-2020      | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Remove%20Kth%20Element%20From%20List)                                      |
 | Find Middle Element     | 10-14-2020      | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Find%20Middle%20Element)                                                   |
 | Contains Cycle          | 10-15-2020      | [Link From CTCI Solution](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Linked%20Lists/Loop%20Detection) |
+| Validate Characters     | 10-18-2020      | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Valid%20Parentheses) |
+| Compare Keystrokes      | 10-19-2020      | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Compare%20Keystrokes) |
+| Call Counter            | 10-22-2020      | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Call%20Counter) |
+| Moving Average          | 10-23-2020      | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Moving%20Average) |
