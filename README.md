@@ -38,6 +38,14 @@ This is a collection of notes and sample coding challenges I've been using for i
 | Problem    | Problem In Book | Solution Link                                                                                                                                                      |
 |------------|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Three Step | 8.1             | [Solution and Test File](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Recursion%20and%20DP/Three%20Step) |
+### System Design and Scalability
+| Problem    | Problem In Book | Solution Link                                                                                                                                                      |
+|------------|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Checking Duplicate URLs| 9.4 | [Solution](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/System%20Design/Handling%20Duplicate%20URLs) |
+### Sorting and Searching
+| Problem    | Problem In Book | Solution Link                                                                                                                                                      |
+|------------|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sorted Merge | 10.1             | [Solution and Test File](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Sorting%20And%20Searching/Sorted%20Merge) |
 
 ## Codesignal Problems
 ### Arrays
@@ -65,11 +73,35 @@ This is a collection of notes and sample coding challenges I've been using for i
 | Digit Tree Sum            | [Link](https://app.codesignal.com/interview-practice/task/2oxNWXTS8eWBzvnRB) | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/CodeSignal/Python/DFS%20and%20BFS/Tree%20Sums)                                                                             |
 ### DP - Basic
 ### Hash Tables
+| Problem                | Link                                                                         | Solution Link                                                                                                                  |
+|------------------------|------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
+| Are Following Patterns | [Link](https://app.codesignal.com/interview-practice/task/3PcnSKuRkqzp8F6BN) | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/CodeSignal/Python/Hash%20Tables/Are%20Following%20Patterns) |
 ### Heaps, Stacks, Queues
+| Problem             | Link                                                                          | Solution Link                                                                                                                            |
+|---------------------|-------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
+| Kth Largest Element | [Link](https://app.codesignal.com/interview-practice/task/BG94ZFECSNo6Kv7XW)  |                                                                                                                                          |
+| Simplify Path       | [Link](https://app.codesignal.com/interview-practice/task/aRwxhGcmvhf6vKPCp)  | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/CodeSignal/Python/Heaps%20Stacks%20and%20Queues/Simplify%20Path)      |
+| Decode String       | [Link](https://app.codesignal.com/interview-practice/task/dYCH8sdnxGf5aGkez)  | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/CodeSignal/Python/Heaps%20Stacks%20and%20Queues/DecodeString)         |
+| Next Larger         | [Link](https://app.codesignal.com/interview-practice/task/MdHZFgZFERPPagfdD/) |                                                                                                                                          |
+| Minimum On Stack    | [Link](https://app.codesignal.com/interview-practice/task/gnZYGn367s4yaHvRr)  | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/CodeSignal/Python/Heaps%20Stacks%20and%20Queues/Minimum%20On%20Stack) |
+| Count Clouds        | [Link](https://app.codesignal.com/interview-practice/task/HdgqPhHqs3NciAHqH)  | [Link From Leetcode](                                                                                                                    |
 ### Linked Lists
-### Sorting
+| Problem                   | Link                                                                         | Solution Link                                                                                                                                                   |
+|---------------------------|------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Remove K From List        | [Link](https://app.codesignal.com/interview-practice/task/gX7NXPBrYThXZuanm) | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/CodeSignal/Python/Linked%20Lists/RemoveKFromList)                                            |
+| Is List Palindrome        | [Link](https://app.codesignal.com/interview-practice/task/HmNvEkfFShPhREMn4) | [Link From CTCI](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Linked%20Lists/Check%20If%20Palindrome) |
+| Merge Two Linked Lists    | [Link](https://app.codesignal.com/interview-practice/task/6rE3maCQwrZS3Mm2H) |                                                                                                                                                                 |
+| Reverse Nodes In K Groups | [Link](https://app.codesignal.com/interview-practice/task/XP2Wn9pwZW6hvqH67) | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/CodeSignal/Python/Linked%20Lists/Reverse%20In%20K%20Groups)                                  |
 ### Strings
 ### Trees
+| Problem                 | Link                                                                         | Solution Link                                                                                                         |
+|-------------------------|------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| Has Path With Given Sum | [Link](https://app.codesignal.com/interview-practice/task/TG4tEMPnAc3PnzRCs) | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/CodeSignal/Python/Trees/Path%20With%20Given%20Sum) |
+| Is Tree Symmetric       | [Link](https://app.codesignal.com/interview-practice/task/tXN6wQsTknDT6bNrf) | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/CodeSignal/Python/Trees/Is%20Tree%20Symmetric)     |
+| Find Profession         | [Link](https://app.codesignal.com/interview-practice/task/FwAR7koSB3uYYsqDp) | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/CodeSignal/Python/Trees/FindProfession)            |
+| Kth Smallest In BST     | [Link](https://app.codesignal.com/interview-practice/task/jAKLMWLu8ynBhYsv6) | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/CodeSignal/Python/Trees/Kth%20Smallest%20In%20BST) |
+| Is Subtree              | [Link](https://app.codesignal.com/interview-practice/task/mDpAJnDQkJqaYYsCg) | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/CodeSignal/Python/Trees/IsSubtree)                 |
+| Restore Binary Tree     | [Link](https://app.codesignal.com/interview-practice/task/AaWaYxi8gjtbqgp2M) | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/CodeSignal/Python/Trees/Restore%20Binary%20Tree)   |
 ## Leetcode Problems
 | Problem                              | Leetcode Link                                                                   | Solution Link                                                                                                                      |
 |--------------------------------------|---------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
