@@ -2,55 +2,43 @@
 
 # Interview-Prep
 
-This is a collection of notes and sample coding challenges I've been using for interviews. This is very much a work in progress, and will be routinely updated for the time being. Unless specified otherwise, problems are done in Python.
+This is a collection of notes and sample coding challenges I've been using for interviews. This is very much a work in progress, and progress has currently halted. Unless specified otherwise, problems are done in Python.
 
 ## Cracking the Coding Interview Problems
 ### Arrays and Strings
-#### Check If Permutation (1.2 In The Book)
-[Solution and Test File](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/String%20Manipulation/Check%20If%20Permutation)
-#### Check If Permutation Of Palindrome (1.4 In The Book)
-[Solution and Test File](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/String%20Manipulation/Check%20If%20Permutation%20Of%20Palindrome)
-#### Matrix Rotation (1.7 In The Book)
-[Solution and Test File](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/String%20Manipulation/Matrix%20Rotation)
-#### One Away (1.5 In The Book)
-[Solution and Test File](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/String%20Manipulation/One%20Away)
-#### String Compression (1.6 In The Book)
-[Solution and Test File](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/String%20Manipulation/String%20Compression)
-#### Unique Strings (1.1 In The Book)
-[Solution and Test File](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/String%20Manipulation/Unique%20Strings)
+| Problem                            | Problem In Book | Solution Link                                                                                                                                                                                     |
+|------------------------------------|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Unique Strings                     | 1.1             | [Solution and Test File](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/String%20Manipulation/Unique%20Strings)                           |
+| Check if Permutation               | 1.2             | [Solution and Test File](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/String%20Manipulation/Check%20If%20Permutation)                   |
+| Check if Permutation of Palindrome | 1.4             | [Solution and Test File](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/String%20Manipulation/Check%20If%20Permutation%20Of%20Palindrome) |
+| One Away                           | 1.5             | [Solution and Test File](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/String%20Manipulation/One%20Away)                                 |
+| String Compression                 | 1.6             | [Solution and Test File](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/String%20Manipulation/String%20Compression)                       |
+| Matrix Rotation                    | 1.7             | [Solution and Test File](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/String%20Manipulation/Matrix%20Rotation)                          |
 ### Linked Lists
-#### Check If Palindrome (2.6 In The Book)
-[Check If Palindrome](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Linked%20Lists/Check%20If%20Palindrome)
-#### Delete Duplicates (2.1 In The Book)
+| Problem             | Problem In Book | Solution Link                                                                                                                                                           |
+|---------------------|-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Delete Duplicates   | 2.1             | [Solution and Test File](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Linked%20Lists/Remove%20Duplicates)     |
+| Kth To Last         | 2.2             | [Solution and Test File](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Linked%20Lists/Kth%20To%20Last)         |
+| Delete Middle Node  | 2.3             | [Solution and Test File](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Linked%20Lists/Delete%20Middle%20Node)  |
+| Check If Palindrome | 2.6             | [Solution and Test File](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Linked%20Lists/Check%20If%20Palindrome) |
+| Loop Detection      | 2.7             | [Solution and Test File](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Linked%20Lists/Loop%20Detection)        |
+| List Intersection   | 2.8             | [Solution and Test File](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Linked%20Lists/List%20Intersection)     |
 
-#### Delete Middle Node (2.3 In The Book)
-[Delete Middle Node](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Linked%20Lists/Delete%20Middle%20Node)
-#### Loop Detection (2.7 In The Book)
-[Loop Detection](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Linked%20Lists/Loop%20Detection)
-#### List Intersection (2.8 In The Book)
-[List Intersection](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Linked%20Lists/List%20Intersection)
-#### Kth To Last (2.2 In The Book)
-[Kth To Last](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Linked%20Lists/Kth%20To%20Last)
 ### Trees and Graphs
-#### Check If Balanced (4.4 In The Book)
-[Check If Balanced](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Graphs%20and%20Trees/Check%20If%20Balanced)
-#### Check If BST (4.5 In The Book)
-[Check If BST](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Graphs%20and%20Trees/Check%20If%20BST)
-#### Constructing Minimal Tree (4.2 In The Book)
-[Construct Minimal Tree](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Graphs%20and%20Trees/Construct%20Minimal%20Tree)
-#### Is Subtree (4.10 In The Book)
-[Is Subtree](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Graphs%20and%20Trees/Is%20Subtree)
-#### List Of Depths (4.3 In The Book)
-[List Of Depths](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Graphs%20and%20Trees/List%20of%20Depths)
-#### Searching
-[Searching](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Graphs%20and%20Trees/Searching)
-#### Traversals
-[Traversals](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Graphs%20and%20Trees/Traversals)
-### OOP
-Coming Soon
+| Problem                                 | Problem In Book | Solution Link                                                                                                                                                                    |
+|-----------------------------------------|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Construct Minimal BST From Sorted Array | 4.2             | [Solution and Test File](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Graphs%20and%20Trees/Construct%20Minimal%20Tree) |
+| List Of Depths Of Tree                  | 4.3             | [Solution and Test File](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Graphs%20and%20Trees/List%20of%20Depths)         |
+| Check If Balanced Tree                  | 4.4             | [Solution and Test File](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Graphs%20and%20Trees/Check%20If%20Balanced)      |
+| Check If BST                            | 4.5             | [Solution and Test File](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Graphs%20and%20Trees/Check%20If%20BST)           |
+| Is Subtree                              | 4.10            | [Solution and Test File](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Graphs%20and%20Trees/Is%20Subtree)               |
+| Searching                               |                 | [Searching](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Graphs%20and%20Trees/Searching)                               |
+| Traversals                              |                 | [Traversals](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Graphs%20and%20Trees/Traversals)                             |
 ### Recursion and Dynamic Programming
-#### Three-Step (Problem 8.1)
-[Solution and Test File](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Recursion%20and%20DP/Three%20Step)
+| Problem    | Problem In Book | Solution Link                                                                                                                                                      |
+|------------|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Three Step | 8.1             | [Solution and Test File](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Recursion%20and%20DP/Three%20Step) |
+
 ## Codesignal Problems
 ### Arrays
 | Problem                       | Link                                                                         | Solution Link                                                                                                           |
@@ -113,8 +101,8 @@ Coming Soon
 | Two Sum With BST                     | [Link](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)                | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/LeetCode/Python/Two%20Sum%20With%20BST)                         |
 | Unique Paths                         | [Link](https://leetcode.com/problems/unique-paths/)                             | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/LeetCode/Python/Unique%20Paths)                                 |
 | Word Search                          | [Link](https://leetcode.com/problems/word-search/)                              | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/LeetCode/Python/Word%20Search)                                  |
-## Data Structures and Algorithms
-Coming Soon
+
+
 ## Daily Byte Problems
 | Problem                 | Date Of Problem | Solution Link                                                                                                                                                     |
 |-------------------------|-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -137,3 +125,12 @@ Coming Soon
 | Compare Keystrokes      | 10-19-2020      | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Compare%20Keystrokes) |
 | Call Counter            | 10-22-2020      | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Call%20Counter) |
 | Moving Average          | 10-23-2020      | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Moving%20Average) |
+| Queue Stack             | 10-24-2020      | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Stack%20With%20Single%20Queue) |
+| Lowest Common Ancestor  | 10-27-2020      |  |
+| Sorted Array To BST     | 10-28-2020      | [Link From CTCI](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Graphs%20and%20Trees/Construct%20Minimal%20Tree) |
+| Identical Trees         | 10-29-2020      | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Identical%20Tree) |
+| Gather Levels           | 11-01-2020      | [Link From CTCI](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Graphs%20and%20Trees/List%20of%20Depths) |
+| Max Value In Each Level | 11-02-2020      |  |
+| Visible Values          | 11-03-2020      | [Link From Leetcode](https://github.com/piresjo/Interview-Prep-Guide/tree/master/LeetCode/Python/Binary%20Tree%20Right%20Side%20View) |
+| Calculate Max Depth     | 11-08-2020      | [Link From Leetcode](https://github.com/piresjo/Interview-Prep-Guide/tree/master/LeetCode/Python/Max%20Depth%20Of%20Binary%20Tree) |
+
