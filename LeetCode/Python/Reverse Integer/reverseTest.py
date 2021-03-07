@@ -7,6 +7,9 @@ class Test(unittest.TestCase):
         self.assertEqual(reverse(0), 0)
         self.assertEqual(reverse(-123), -321)
         self.assertEqual(reverse(23), 32)
+        self.assertEqual(reverseMethod2(0), 0)
+        self.assertEqual(reverseMethod2(-123), -321)
+        self.assertEqual(reverseMethod2(23), 32)
         
 
 
