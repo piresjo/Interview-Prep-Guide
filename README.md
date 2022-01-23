@@ -141,15 +141,15 @@ This is a collection of notes and sample coding challenges I've been using for i
 | Reverse String          | 9-27-2020       | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Reverse%20String)                                                          |
 | Vacuum Path             | 9-29-2020       | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Vacuum%20Path)                                                             |
 | Correct Capitalization  | 9-30-2020       | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Correct%20Capitalization)                                                  |
-| Add Binary              | 10-01-2020      | [Link From Leetcode Solution](https://github.com/piresjo/Interview-Prep-Guide/tree/master/LeetCode/Python/Add%20Binary) |
-| Longest Common Prefix   | 10-02-2020      | [Link From Leetcode Solution](https://github.com/piresjo/Interview-Prep-Guide/tree/master/LeetCode/Python/Largest%20Common%20Prefix) |
-| Two Sum                 | 10-04-2020      | [Link From Leetcode Solution](https://github.com/piresjo/Interview-Prep-Guide/tree/master/LeetCode/Python/Two%20Sum) |
+| Add Binary              | 10-01-2020      | [Link From Leetcode](https://github.com/piresjo/Interview-Prep-Guide/tree/master/LeetCode/Python/Add%20Binary) |
+| Longest Common Prefix   | 10-02-2020      | [Link From Leetcode](https://github.com/piresjo/Interview-Prep-Guide/tree/master/LeetCode/Python/Largest%20Common%20Prefix) |
+| Two Sum                 | 10-04-2020      | [Link From Leetcode](https://github.com/piresjo/Interview-Prep-Guide/tree/master/LeetCode/Python/Two%20Sum) |
 | Jewels and Stones       | 10-05-2020      | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Jewels%20and%20Stones) |
 | First Unique Character  | 10-07-2020      | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/First%20Unique%20Character) |
 | Spot The Difference     | 10-08-2020      | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Spot%20The%20Difference)                                                   |
 | Intersection Of Numbers | 10-09-2020      | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Intersection%20Of%20Numbers)                                               |
 | Uncommon Words          | 10-10-2020      | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Uncommon%20Words)                                                          |
-| Merge Linked Lists      | 10-11-2020      | [Link From LeetCode Solution](https://github.com/piresjo/Interview-Prep-Guide/tree/master/LeetCode/Python/Merge%20K%20Sorted%20Lists)                             |
+| Merge Linked Lists      | 10-11-2020      | [Link From Leetcode](https://github.com/piresjo/Interview-Prep-Guide/tree/master/LeetCode/Python/Merge%20K%20Sorted%20Lists)                             |
 | Remove Nth To Last Node | 10-12-2020      | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Remove%20Kth%20Element%20From%20List)                                      |
 | Find Middle Element     | 10-14-2020      | [Link](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Daily%20Byte/Python/Find%20Middle%20Element)                                                   |
 | Contains Cycle          | 10-15-2020      | [Link From CTCI Solution](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Linked%20Lists/Loop%20Detection) |
@@ -165,4 +165,12 @@ This is a collection of notes and sample coding challenges I've been using for i
 | Max Value In Each Level | 11-02-2020      |  |
 | Visible Values          | 11-03-2020      | [Link From Leetcode](https://github.com/piresjo/Interview-Prep-Guide/tree/master/LeetCode/Python/Binary%20Tree%20Right%20Side%20View) |
 | Calculate Max Depth     | 11-08-2020      | [Link From Leetcode](https://github.com/piresjo/Interview-Prep-Guide/tree/master/LeetCode/Python/Max%20Depth%20Of%20Binary%20Tree) |
+| Kth Smallest            | 03-31-2021      | [Link From CodeSignal](https://github.com/piresjo/Interview-Prep-Guide/tree/master/CodeSignal/Python/Trees/Kth%20Smallest%20In%20BST) |
+| Image Flip              | 04-11-2021      | [Link From CTCI](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/String%20Manipulation/Matrix%20Rotation) |
+| Palindrome Possibility  | 08-04-2021      | [Link From CTCI](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/String%20Manipulation/Check%20If%20Permutation%20Of%20Palindrome) |
+| N-ary Preorder          | 08-12-2021      |  |
+| Deepest Leaf Sum        | 09-27-2021      | [Link From Leetcode](https://github.com/piresjo/Interview-Prep-Guide/tree/master/LeetCode/Python/Sum%20Of%20Deepest%20Leaves)  |
+| List In Tree Path       | 10-04-2021      | [Link From CTCI](https://github.com/piresjo/Interview-Prep-Guide/tree/master/Cracking%20The%20Coding%20Interview/Python/Graphs%20and%20Trees/List%20of%20Depths) |
+| Magical Islands         | 10-22-2021      | [Link From Leetcode](https://github.com/piresjo/Interview-Prep-Guide/tree/master/LeetCode/Python/Number%20Of%20Islands) |
+| Merge String            | 11-12-2021      |  |
 
