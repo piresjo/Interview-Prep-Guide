@@ -1,4 +1,6 @@
-def preorderIterative(root: 'Node') -> [int]:
+from typing import List
+
+def preorderIterative(root) -> List[int]:
     res = []
     if not root:
         return res
