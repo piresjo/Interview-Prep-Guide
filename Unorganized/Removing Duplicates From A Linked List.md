@@ -11,7 +11,7 @@ The `LinkedListNode` object is defined as such:
 
 ```python
 class LinkedListNode:
-    __init__(self, data):
+    def __init__(self, data):
         self.data = data # Whatever the data is
         self.next = None # Pointer to next node in list
 ```
