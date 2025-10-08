@@ -2,7 +2,7 @@
 
 ## Basics
 
-Breadth-first search (BFS) is an algorithm for searching a tree data structure for a node that satisfies a given property. It starts at the tree root and explores all nodes at the present depth prior to moving on to the nodes at the next depth level. Extra memory, usually a queue, is needed to keep track of the child nodes that were encountered but not yet explored. 
+Breadth-first search (BFS) is an algorithm for searching a tree data structure for a node that satisfies a given property. It starts at the tree root and explores all nodes at the present depth prior to moving on to the nodes at the next depth level. Extra memory, usually a queue, is needed to keep track of the child nodes that were encountered but not yet explored.
 
 ## Iterative Solution
 
@@ -54,4 +54,5 @@ For performance, the worst case scenario is `O(V + E)`, with `V` being the numbe
 For space, the worst case is `O(V)`, since every node needs to be accessed.
 
 ## Links
+
 [Breadth-first search](https://en.wikipedia.org/wiki/Breadth-first_search)

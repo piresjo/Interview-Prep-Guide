@@ -6,7 +6,7 @@ Given the `head` node of a single-linked list, can we determine if the list is c
 
 ## Things To Note
 
-By `cyclical`, we mean that all the nodes point to another node in such a way to create a cycle.
+By cyclical, we mean that all the nodes point to another node in such a way to create a cycle.
 
 The `LinkedListNode` object is defined as such:
 
@@ -25,11 +25,11 @@ def hasCycle(head):
     # Code
 ```
 
-There is a base case: when the head is null. The list is clearly not cyclical, so we can mark as `False`
+There is an edge case: when the head is null. The list is clearly not cyclical, so we can mark as `False`
 
 All the values in the list are unique.
 
-## Solution Explaned
+## Solution Explained
 
 If there is a cycle in the list, two pointers going through the list at different speeds will eventually intersect.
 
