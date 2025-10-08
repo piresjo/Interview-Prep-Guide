@@ -19,14 +19,14 @@ class BinarySearchTreeNode:
         self.right = None
 ```
 
-## Solution Explaned
+## Solution Explained
 
 The problem lends itself to a recursive solution. Since the array is sorted, you can use the middle element as a good starting point.
-Since this is sorte and you're trying to create a binary search tree, you'll then have to deal with the left and right halves.
+Since this is sorted and you're trying to create a binary search tree, you'll then have to deal with the left and right halves.
 
 If we're doing this recursively, we need a base case. Here, it's when the array is empty.
 
-We also want to be mindful of where the array being analized begins and where it ends. We can stop the recursion if you can't split in half anymore
+We also want to be mindful of where the array being analyzed begins and where it ends. We can stop the recursion if you can't split in half anymore
 without the start and end points not behaving correctly. This will also help us determine when the array gets empty. We'll also need it to determine
 midpoints in the recursion steps.
 

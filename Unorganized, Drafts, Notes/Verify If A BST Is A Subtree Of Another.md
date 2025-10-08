@@ -16,14 +16,14 @@ class BinarySearchTreeNode:
         self.right = None
 ```
 
-## Solution Explaned
+## Solution Explained
 
 The problem lends itself to a recursive solution. Generating the subtrees and comparing the trees are both recursive actions.
 
 Let's start with the base cases. There is a base case before we generate or compare any subtrees: when `t2` is `None`.
 `None` can be considered a subtree of any tree, so we'll return `True`.
 
-Now to move onto the subtree generation. This will be done recusively, as mentioned above. There are two cases that break the recursion:
+Now to move onto the subtree generation. This will be done recursively, as mentioned above. There are two cases that break the recursion:
 
 - If `t1` is `None` -> In that case, since no tree can be a subtree of `None`, we return `False`
 - If `t1` and `t2` are equivalent -> Here, we'll return `True`
@@ -31,7 +31,7 @@ Now to move onto the subtree generation. This will be done recusively, as mentio
 Otherwise, we need to run the function for the left and right subtrees until the above is met.
 
 To determine whether or not the trees are equivalent, we'll need another recursive call to check that
-the trees are quivalent in structure and content. There are three scenarios where we can break the recursion here:
+the trees are equivalent in structure and content. There are three scenarios where we can break the recursion here:
 
 - Both trees are `None` -> Return `True`
 - One of the trees is `None` -> Return `False`

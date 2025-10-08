@@ -26,10 +26,10 @@ def sortedInsert(head, data):
     return head
 ```
 
-There is a base case: when the head is null. As a result, the new node is automatically the head,
+There is an edge case: when the head is null. As a result, the new node is automatically the head,
 and since there is only one node in the list, the list is in order.
 
-## Solution Explaned
+## Solution Explained
 
 The first thing we want to do is create the node based off the data we got.
 If there is no `head` node, you can return the new node as is.

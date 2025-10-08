@@ -24,9 +24,9 @@ def removeDuplicates(head):
     # Code
 ```
 
-There is a base case: when the head is null. There is nothing to remove, so we can return `None`
+There is an edge case: when the head is null. There is nothing to remove, so we can return `None`
 
-## Solution Explaned - Recursive
+## Solution Explained - Recursive
 
 TO BE ADDED
 
@@ -44,11 +44,11 @@ def removeDuplicates(head):
     return head
 ```
 
-## Solution Explaned - Recursive
+## Solution Explained - Iterative
 
 TO BE ADDED
 
-## Full Solution - Recursive
+## Full Solution - Iterative
 
 TO BE ADDED
 

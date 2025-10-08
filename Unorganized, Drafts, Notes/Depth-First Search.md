@@ -73,4 +73,5 @@ For performance, the worst case scenario is `O(V + E)`, with `V` being the numbe
 For space, the worst case is `O(V)`, since every node needs to be accessed. This is made particularly explicit in the iterative version.
 
 ## Links
+
 [Depth-first search](https://en.wikipedia.org/wiki/Depth-first_search)
