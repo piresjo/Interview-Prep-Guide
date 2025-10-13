@@ -36,7 +36,7 @@ midpoints in the recursion steps.
 def createMinBST(arr):
     return createMinBSTHelper(arr, 0, len(arr)-1)
 
-def createMinBSTHelper(arrm, start, end):
+def createMinBSTHelper(arr, start, end):
     if end < start:
         return None
     
