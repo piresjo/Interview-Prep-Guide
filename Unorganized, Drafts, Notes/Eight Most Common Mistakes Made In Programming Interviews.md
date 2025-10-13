@@ -32,7 +32,7 @@ While repeating the question, bring up few simple examples of input, and make su
 
 ## #7: Ignoring Edge Cases
 
-Use tests around the boundaries of your algorithm’s input. If your algorithm fails on some of these edge cases, check first if you can fix your algorithm by introducing some quick incremental changes to it. If you can’t, ask your interviewer whether you should handle these edge cases. If the answer is yes and you can’t seem to think of anything, engage your interviewer and try to solicit their help to guide you in the right direction. 
+Use tests around the boundaries of your algorithm’s input. If your algorithm fails on some of these edge cases, check first if you can fix your algorithm by introducing some quick incremental changes to it. If you can’t, ask your interviewer whether you should handle these edge cases. If the answer is yes and you can’t seem to think of anything, engage your interviewer and try to solicit their help to guide you in the right direction.
 
 ## #8: Sloppy Code
 
