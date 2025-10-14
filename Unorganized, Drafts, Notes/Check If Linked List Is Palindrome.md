@@ -20,7 +20,7 @@ If a list is a palindrome, the reverse order is the same as the forward order.
 Since this solution is done in Python, the problem will look like this:
 
 ```python
-def isPalindrome,(head):
+def isPalindrome(head):
     # Code
 ```
 
