@@ -66,7 +66,7 @@ If you traverse the pyramid floor by floor, starting with the top of the pyramid
 
 ### Depth First Search
 
-Rather than going floor by floor, if you go elevator-by-elevator, checking the nearest rooms on each stop as you traverse the pyramid in vertical slices, you will be roughly performing a depth-first search for your friend Fiz. 
+Rather than going floor by floor, if you go elevator-by-elevator, checking the nearest rooms on each stop as you traverse the pyramid in vertical slices, you will be roughly performing a depth-first search for your friend Fiz.
 
 ## Dynamic Programming
 
