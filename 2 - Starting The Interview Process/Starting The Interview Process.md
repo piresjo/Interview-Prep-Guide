@@ -39,7 +39,7 @@ Take the time to write out 3–4 custom questions for the interviewer. The quest
 
 ### Prioritizing What To Study
 
-You likely have a really limited amount of time to prepare and study, so don’t try to practice everything. Based on your conversations with the recruiter, focus your preparation on a few key areas. 
+You likely have a really limited amount of time to prepare and study, so don’t try to practice everything. Based on your conversations with the recruiter, focus your preparation on a few key areas.
 
 ## Links
 
