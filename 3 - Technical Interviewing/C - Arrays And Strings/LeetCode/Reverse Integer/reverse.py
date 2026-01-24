@@ -22,13 +22,12 @@ def reverseMethod2(x):
     if x < 0:
         negative = True
         x *= -1
-        
-    reversedVal = 0
-        
+
+    reversedVal = 0  
+
     while x > 0:
         reversedVal = (reversedVal * 10) + (x % 10)
         x //= 10
-        
         
     if reversedVal < (-2 ** 31) or reversedVal > ((2 ** 31) - 1):
         return 0
