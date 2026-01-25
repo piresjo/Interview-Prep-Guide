@@ -6,7 +6,7 @@ class QueueStack:
     def enqueue(self, x):
         while self.stackA:
             self.stackB.append(self.stackA.pop())
-        
+
         self.stackA.append(x)
 
         while self.stackB:

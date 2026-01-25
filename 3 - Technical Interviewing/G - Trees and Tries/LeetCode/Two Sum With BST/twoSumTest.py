@@ -1,14 +1,15 @@
-import unittest
+import pytest
 from twoSum import *
 
-class Test(unittest.TestCase):
-    
+
+class Test:
+
     def testWithNone(self):
-        self.assertFalse(findTarget(None, 7))
+        assert not findTarget(None, 7))
 
     def testSingle(self):
         nodeVal = TreeNode(5)
-        self.assertFalse(findTarget(nodeVal, 5))
+        assert not findTarget(nodeVal, 5))
 
     def testGeneral(self):
         nodeA = TreeNode(5)
@@ -28,9 +29,5 @@ class Test(unittest.TestCase):
         nodeC.right = nodeG
         nodeD.left = nodeH
 
-        self.assertFalse(findTarget(nodeA, 500))
-        self.assertTrue(findTarget(nodeA, 10))
-
-
-if __name__ == '__main__':
-   unittest.main()
+        assert not findTarget(nodeA, 500))
+        assert findTarget(nodeA, 10))

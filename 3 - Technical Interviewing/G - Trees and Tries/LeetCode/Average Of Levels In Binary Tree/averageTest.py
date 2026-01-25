@@ -1,14 +1,15 @@
-import unittest
+import pytest
 from average import *
 
-class Test(unittest.TestCase):
-    
+
+class Test:
+
     def testWithNone(self):
-        self.assertEqual(averageOfLevels(None), [])
+        assert averageOfLevels(None), [])
 
     def testSingle(self):
         nodeVal = TreeNode(5)
-        self.assertEqual(averageOfLevels(nodeVal), [5])
+        assert averageOfLevels(nodeVal), [5])
 
     def testGeneral(self):
         nodeA = TreeNode(5)
@@ -28,10 +29,4 @@ class Test(unittest.TestCase):
         nodeC.right = nodeG
         nodeD.left = nodeH
 
-        self.assertEqual(averageOfLevels(nodeA), [5, 5, 5, 1])
-
-
-      
-
-if __name__ == '__main__':
-   unittest.main()
+        assert averageOfLevels(nodeA), [5, 5, 5, 1])

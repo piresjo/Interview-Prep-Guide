@@ -1,12 +1,13 @@
-import unittest
+import pytest
 from treeSums import *
 
-class Test(unittest.TestCase):
+
+class Test:
     def testWithNone(self):
-        self.assertEqual(digitTreeSum(None), 0)
+        assert digitTreeSum(None), 0)
 
     def testWithSingle(self):
-        self.assertEqual(digitTreeSum(Tree(5)), 5)
+        assert digitTreeSum(Tree(5)), 5)
 
     def testGeneral(self):
         nodeA = Tree(5)
@@ -26,8 +27,4 @@ class Test(unittest.TestCase):
         nodeC.right = nodeG
         nodeD.left = nodeH
 
-        self.assertEqual(digitTreeSum(nodeA), 7009)
-        
-
-if __name__ == '__main__':
-   unittest.main()
+        assert digitTreeSum(nodeA), 7009)

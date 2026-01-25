@@ -1,13 +1,13 @@
-import unittest
+import pytest
 from remove import *
 
-class Test(unittest.TestCase):
+
+class Test:
 
     def testEdgeCases(self):
         nodeA = LinkedList(1)
-        self.assertIsNone(remove(nodeA, 12))
-        self.assertIsNone(remove(None, 12))
-        
+        assert not remove(nodeA, 12))
+        assert not remove(None, 12))
 
     def testGeneral(self):
         nodeA = LinkedList(1)
@@ -17,17 +17,5 @@ class Test(unittest.TestCase):
         nodeB.next = nodeC
         # Method seems to run correctly, don't know why return pointer has
         # no next value
-        self.assertEqual(remove(nodeA, 2).data, nodeA.data)
-        self.assertEqual(remove(nodeA, 2).next.data, nodeC.data)
-
-
-        
-
-
-    
-
-
-   
-
-if __name__ == '__main__':
-   unittest.main()
+        assert remove(nodeA, 2).data, nodeA.data)
+        assert remove(nodeA, 2).next.data, nodeC.data)

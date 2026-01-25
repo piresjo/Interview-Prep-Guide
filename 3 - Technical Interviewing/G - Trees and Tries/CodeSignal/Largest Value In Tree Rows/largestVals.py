@@ -4,7 +4,7 @@ def largestValuesInTreeRows(t):
     queue = []
     returnList = []
     queue.append(t)
-        
+
     while len(queue) > 0:
         sizeVal = len(queue)
         maxVal = float("-inf")
@@ -17,9 +17,9 @@ def largestValuesInTreeRows(t):
             if temp.right:
                 queue.append(temp.right)
         returnList.append(maxVal)
-                
-        
+
     return returnList
+
 
 class TreeNode:
     def __init__(self, value=0, left=None, right=None):

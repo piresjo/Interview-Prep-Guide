@@ -1,8 +1,9 @@
-'''
-    General Idea: We keep a set to determine if we've seen an element with
-    that value before. If so, we modify the pointers so that it's not in
-    the linked list anymore.
-'''
+"""
+General Idea: We keep a set to determine if we've seen an element with
+that value before. If so, we modify the pointers so that it's not in
+the linked list anymore.
+"""
+
 
 def deleteDups(node):
     if not node:
@@ -23,6 +24,6 @@ def deleteDups(node):
 
 
 class LinkedList:
-  def __init__(self, data, next):
-    self.data = data
-    self.next = next
+    def __init__(self, data, next):
+        self.data = data
+        self.next = next

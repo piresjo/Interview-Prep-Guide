@@ -10,5 +10,5 @@ def amendTheSentence(s):
             returnString += " " + s[i].lower()
         else:
             returnString += s[i]
-        
+
     return returnString

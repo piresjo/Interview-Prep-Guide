@@ -5,8 +5,8 @@ def firstNotRepeatingCharacter(s):
             charDict[x] = 1
         else:
             charDict[x] += 1
-    
+
     for x in s:
         if charDict[x] == 1:
             return x
-    return '_'
+    return "_"

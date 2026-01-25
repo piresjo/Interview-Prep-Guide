@@ -1,17 +1,13 @@
-import unittest
+import pytest
 from decode import *
 
-class Test(unittest.TestCase):
-    
+
+class Test:
+
     def testWithEmpty(self):
-        self.assertEqual(decodeString(""), "")
-        
+        assert decodeString(""), "")
+
     def testGeneral(self):
-        self.assertEqual(decodeString("asdf"), "asdf")
-        self.assertEqual(decodeString("4[ab]"), "abababab")
-        self.assertEqual(decodeString("3[a2[c]]"), "accaccacc")
-
-
-
-if __name__ == '__main__':
-   unittest.main()
+        assert decodeString("asdf"), "asdf")
+        assert decodeString("4[ab]"), "abababab")
+        assert decodeString("3[a2[c]]"), "accaccacc")

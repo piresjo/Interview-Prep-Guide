@@ -1,10 +1,11 @@
-import unittest
+import pytest
 from isSubtree import *
 
-class Test(unittest.TestCase):
+
+class Test:
 
     def testWithNoneObject(self):
-        self.assertFalse(isSubtree(None, None))
+        assert not isSubtree(None, None))
 
     def testHappyPath(self):
         node1 = Tree(1)
@@ -18,9 +19,4 @@ class Test(unittest.TestCase):
         node2.right = node3
         node4.right = node5
 
-        self.assertTrue(isSubtree(node4, node2))
-
-        
-       
-if __name__ == '__main__':
-   unittest.main()
+        assert isSubtree(node4, node2))

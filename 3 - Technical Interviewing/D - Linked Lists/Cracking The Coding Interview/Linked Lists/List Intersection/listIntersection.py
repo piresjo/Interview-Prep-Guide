@@ -21,19 +21,20 @@ def isIntersection(list1, list2):
         smallerList = list2 if len1 > len2 else list1
         for i in range(0, offset):
             biggerList = biggerList.next
-    
+
     while biggerList is not None:
         if biggerList == smallerList:
             return biggerList
         biggerList = biggerList.next
         smallerList = smallerList.next
-    
+
 
 def getTail(listVal):
     pointer = listVal
     while pointer.next is not None:
         pointer = pointer.next
     return pointer
+
 
 def getSize(listVal):
     pointer = listVal
@@ -43,7 +44,8 @@ def getSize(listVal):
         pointer = pointer.next
     return counter
 
+
 class LinkedList:
-  def __init__(self, data, next):
-    self.data = data
-    self.next = next
+    def __init__(self, data, next):
+        self.data = data
+        self.next = next

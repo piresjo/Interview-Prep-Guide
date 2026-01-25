@@ -13,19 +13,19 @@ def isPalindrome(head):
         slow = slow.next
         fast = fast.next.next
 
-
     if fast is not None:
         slow = slow.next
 
     while slow is not None:
-        popValue = stack.pop() 
+        popValue = stack.pop()
         if slow.data != popValue:
             return False
         slow = slow.next
-    
+
     return True
 
+
 class LinkedList:
-  def __init__(self, data, next):
-    self.data = data
-    self.next = next
+    def __init__(self, data, next):
+        self.data = data
+        self.next = next

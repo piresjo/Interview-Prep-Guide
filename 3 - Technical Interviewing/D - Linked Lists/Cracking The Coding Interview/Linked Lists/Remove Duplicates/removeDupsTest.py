@@ -1,16 +1,17 @@
-import unittest
+import pytest
 from removeDups import *
 
-class TestStringMethods(unittest.TestCase):
+
+class TestStringMethods:
 
     def testWithNoneObject(self):
-        self.assertIsNone(deleteDups(None))
+        assert not deleteDups(None))
 
     def testNoDuplicates(self):
         test = LinkedList(20, LinkedList(25, LinkedList(30, None)))
         result = deleteDups(test)
-        self.assertEqual(result.data, 20)
-        self.assertEqual(result.next.data, 25)
+        assert result.data, 20)
+        assert result.next.data, 25)
 
     def testWithDuplicates(self):
         testA = LinkedList(20, None)
@@ -23,9 +24,5 @@ class TestStringMethods(unittest.TestCase):
         testC.next = testD
         testD.next = testE
         result = deleteDups(testA)
-        self.assertEqual(result.data, 20)
-        self.assertEqual(result.next.data, 15)
-
-    
-if __name__ == '__main__':
-   unittest.main()
+        assert result.data, 20)
+        assert result.next.data, 15)

@@ -1,17 +1,15 @@
-import unittest
+import pytest
 from minNum import *
 
-class Test(unittest.TestCase):
+
+class Test:
 
     def testGeneral(self):
-        self.assertEqual(findMinFibonacciNumbers(0), 0)
-        self.assertEqual(findMinFibonacciNumbers(1), 1)
-        self.assertEqual(findMinFibonacciNumbers(2), 1)
-        self.assertEqual(findMinFibonacciNumbers(3), 1)
-        self.assertEqual(findMinFibonacciNumbers(4), 2)
-        self.assertEqual(findMinFibonacciNumbers(5), 1)
-        self.assertEqual(findMinFibonacciNumbers(6), 2)
-        self.assertEqual(findMinFibonacciNumbers(7), 2)
-
-if __name__ == '__main__':
-   unittest.main()
+        assert findMinFibonacciNumbers(0), 0)
+        assert findMinFibonacciNumbers(1), 1)
+        assert findMinFibonacciNumbers(2), 1)
+        assert findMinFibonacciNumbers(3), 1)
+        assert findMinFibonacciNumbers(4), 2)
+        assert findMinFibonacciNumbers(5), 1)
+        assert findMinFibonacciNumbers(6), 2)
+        assert findMinFibonacciNumbers(7), 2)

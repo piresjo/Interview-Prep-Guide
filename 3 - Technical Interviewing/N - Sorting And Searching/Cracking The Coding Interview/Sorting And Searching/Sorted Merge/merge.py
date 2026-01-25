@@ -16,5 +16,3 @@ def merge(arrA, arrB, lastA, lastB):
             indexB -= 1
         indexMerged -= 1
     return arrA
-
-    

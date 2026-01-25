@@ -1,18 +1,14 @@
-import unittest
+import pytest
 from stairs import *
 
-class Test(unittest.TestCase):
-    
+
+class Test:
+
     def testWithBaseCases(self):
-       self.assertEqual(stairs(0), 1)
-       self.assertEqual(stairs(1), 1)
+        assert stairs(0), 1)
+        assert stairs(1), 1)
 
     def testGeneral(self):
-        self.assertEqual(stairs(2), 2)
-        self.assertEqual(stairs(3), 3)
-        self.assertEqual(stairs(38), 63245986)
-
-      
-
-if __name__ == '__main__':
-   unittest.main()
+        assert stairs(2), 2)
+        assert stairs(3), 3)
+        assert stairs(38), 63245986)

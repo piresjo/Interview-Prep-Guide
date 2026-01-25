@@ -1,10 +1,11 @@
-import unittest
+import pytest
 from longestConsecutive import *
 
-class Test(unittest.TestCase):
+
+class Test:
 
     def testWithNone(self):
-        self.assertEqual(longestConsecutive(None), 0)
+        assert longestConsecutive(None), 0)
 
     def testReturn1(self):
         nodeA = TreeNode(1)
@@ -15,7 +16,7 @@ class Test(unittest.TestCase):
         nodeA.left = nodeB
         nodeA.right = nodeC
         nodeB.right = nodeD
-        self.assertEqual(longestConsecutive(nodeA), 1)
+        assert longestConsecutive(nodeA), 1)
 
     def testGeneral(self):
         nodeA = TreeNode(1)
@@ -28,8 +29,4 @@ class Test(unittest.TestCase):
         nodeA.right = nodeC
         nodeC.left = nodeD
         nodeD.right = nodeE
-        self.assertEqual(longestConsecutive(nodeA), 3)
-
-
-if __name__ == '__main__':
-   unittest.main()
+        assert longestConsecutive(nodeA), 3)

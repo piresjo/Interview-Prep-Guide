@@ -4,7 +4,7 @@ def listOfDepths(node):
     visibleQueue = []
     visibleList = []
     visibleQueue.append(node)
-        
+
     while len(visibleQueue) > 0:
         sizeVal = len(visibleQueue)
         levelList = []
@@ -16,9 +16,9 @@ def listOfDepths(node):
             if temp.right:
                 visibleQueue.append(temp.right)
         visibleList.append(levelList)
-                
-        
+
     return visibleList
+
 
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):

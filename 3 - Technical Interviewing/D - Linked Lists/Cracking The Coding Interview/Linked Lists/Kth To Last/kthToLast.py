@@ -7,13 +7,14 @@ def kthToLast(head, k):
             return None
         pointerToEnd = pointerToEnd.next
 
-    while (pointerToEnd is not None):
+    while pointerToEnd is not None:
         pointerToEnd = pointerToEnd.next
         pointerToReturn = pointerToReturn.next
-    
+
     return pointerToReturn
 
+
 class LinkedList:
-  def __init__(self, data, next):
-    self.data = data
-    self.next = next
+    def __init__(self, data, next):
+        self.data = data
+        self.next = next

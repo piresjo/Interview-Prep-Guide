@@ -1,19 +1,15 @@
-import unittest
+import pytest
 from threeStep import *
 
-class Test(unittest.TestCase):
-    
+
+class Test:
+
     def testWithBaseCases(self):
-       self.assertEqual(stairs(0), 1)
-       self.assertEqual(stairs(1), 1)
-       self.assertEqual(stairs(2), 2)
+        assert stairs(0), 1)
+        assert stairs(1), 1)
+        assert stairs(2), 2)
 
     def testGeneral(self):
-        self.assertEqual(stairs(3), 4)
-        self.assertEqual(stairs(4), 7)
-        self.assertEqual(stairs(5), 13)
-
-      
-
-if __name__ == '__main__':
-   unittest.main()
+        assert stairs(3), 4)
+        assert stairs(4), 7)
+        assert stairs(5), 13)

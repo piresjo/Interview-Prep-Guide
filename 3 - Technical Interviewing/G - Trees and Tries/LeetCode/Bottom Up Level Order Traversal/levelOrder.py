@@ -4,7 +4,7 @@ def levelOrderBottom(root):
     queue = []
     returnList = []
     queue.append(root)
-        
+
     while len(queue) > 0:
         sizeVal = len(queue)
         rowVals = []
@@ -17,8 +17,9 @@ def levelOrderBottom(root):
                 queue.append(temp.left)
             if temp.right:
                 queue.append(temp.right)
-                    
+
     return returnList
+
 
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):

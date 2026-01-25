@@ -1,14 +1,15 @@
-import unittest
+import pytest
 from levelOrder import *
 
-class Test(unittest.TestCase):
-    
+
+class Test:
+
     def testWithNone(self):
-        self.assertEqual(levelOrderBottom(None), [])
+        assert levelOrderBottom(None), [])
 
     def testSingle(self):
         nodeVal = TreeNode(5)
-        self.assertEqual(levelOrderBottom(nodeVal), [[5]])
+        assert levelOrderBottom(nodeVal), [[5]])
 
     def testGeneral(self):
         nodeA = TreeNode(5)
@@ -28,8 +29,4 @@ class Test(unittest.TestCase):
         nodeC.right = nodeG
         nodeD.left = nodeH
 
-        self.assertEqual(levelOrderBottom(nodeA), [[1], [2, 4, 6, 8], [3, 7], [5]])
-
-
-if __name__ == '__main__':
-   unittest.main()
+        assert levelOrderBottom(nodeA), [[1], [2, 4, 6, 8], [3, 7], [5]])

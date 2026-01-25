@@ -4,7 +4,7 @@ def maxDepth(root) -> int:
     queue = []
     depth = 0
     queue.append(root)
-        
+
     while len(queue) > 0:
         sizeVal = len(queue)
         for i in range(0, sizeVal):
@@ -14,8 +14,9 @@ def maxDepth(root) -> int:
             if temp.right:
                 queue.append(temp.right)
         depth += 1
-                  
+
     return depth
+
 
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):

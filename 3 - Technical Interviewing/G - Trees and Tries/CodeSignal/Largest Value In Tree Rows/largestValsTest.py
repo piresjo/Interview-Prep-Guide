@@ -1,14 +1,15 @@
-import unittest
+import pytest
 from largestVals import *
 
-class Test(unittest.TestCase):
-    
+
+class Test:
+
     def testWithNone(self):
-        self.assertEqual(largestValuesInTreeRows(None), [])
+        assert largestValuesInTreeRows(None), [])
 
     def testSingle(self):
         nodeVal = TreeNode(5)
-        self.assertEqual(largestValuesInTreeRows(nodeVal), [5])
+        assert largestValuesInTreeRows(nodeVal), [5])
 
     def testGeneral(self):
         nodeA = TreeNode(5)
@@ -28,8 +29,4 @@ class Test(unittest.TestCase):
         nodeC.right = nodeG
         nodeD.left = nodeH
 
-        self.assertEqual(largestValuesInTreeRows(nodeA), [5, 7, 8, 1])
-
-
-if __name__ == '__main__':
-   unittest.main()
+        assert largestValuesInTreeRows(nodeA), [5, 7, 8, 1])

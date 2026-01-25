@@ -13,8 +13,9 @@ def find(head, val):
     else:
         return find(head.left, val)
 
-class BSTNode:	
-    def __init__(self, data):	
-        self.data = data	
-        self.left = None	
+
+class BSTNode:
+    def __init__(self, data):
+        self.data = data
+        self.left = None
         self.right = None

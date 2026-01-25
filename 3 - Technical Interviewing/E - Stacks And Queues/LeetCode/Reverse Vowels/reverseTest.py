@@ -1,11 +1,9 @@
-import unittest
+import pytest
 from reverse import *
 
-class Test(unittest.TestCase):        
-    def testGeneral(self):
-        self.assertEqual(reverseVowels(""), "")
-        self.assertEqual(reverseVowels("hello"), "holle")
-        self.assertEqual(reverseVowels("1.1.1.1"), "1.1.1.1")
 
-if __name__ == '__main__':
-   unittest.main()
+class Test:
+    def testGeneral(self):
+        assert reverseVowels(""), "")
+        assert reverseVowels("hello"), "holle")
+        assert reverseVowels("1.1.1.1"), "1.1.1.1")

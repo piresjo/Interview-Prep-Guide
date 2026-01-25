@@ -1,14 +1,15 @@
-import unittest
+import pytest
 from listOfDepths import *
 
-class Test(unittest.TestCase):
-    
+
+class Test:
+
     def testWithNone(self):
-        self.assertEqual(listOfDepths(None), [])
+        assert listOfDepths(None), [])
 
     def testSingle(self):
         nodeVal = TreeNode(5)
-        self.assertEqual(listOfDepths(nodeVal), [[5]])
+        assert listOfDepths(nodeVal), [[5]])
 
     def testGeneral(self):
         nodeA = TreeNode(5)
@@ -28,10 +29,4 @@ class Test(unittest.TestCase):
         nodeC.right = nodeG
         nodeD.left = nodeH
 
-        self.assertEqual(listOfDepths(nodeA), [[5], [3, 7], [2, 4, 6, 8], [1]])
-
-
-      
-
-if __name__ == '__main__':
-   unittest.main()
+        assert listOfDepths(nodeA), [[5], [3, 7], [2, 4, 6, 8], [1]])

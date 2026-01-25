@@ -1,10 +1,11 @@
-import unittest
+import pytest
 from pathGivenSum import *
 
-class Test(unittest.TestCase):
+
+class Test:
 
     def testWithNoneObject(self):
-        self.assertFalse(hasPathWithGivenSum(None, 0))
+        assert not hasPathWithGivenSum(None, 0))
 
     def testGeneralCase(self):
         node1 = Tree(1)
@@ -18,12 +19,7 @@ class Test(unittest.TestCase):
         node2.right = node3
         node4.right = node5
 
-        self.assertFalse(hasPathWithGivenSum(node4, 20))
-        self.assertFalse(hasPathWithGivenSum(node4, 10))
-        self.assertTrue(hasPathWithGivenSum(node4, 9))
-        self.assertTrue(hasPathWithGivenSum(node4, 7))
-
-        
-       
-if __name__ == '__main__':
-   unittest.main()
+        assert not hasPathWithGivenSum(node4, 20))
+        assert not hasPathWithGivenSum(node4, 10))
+        assert hasPathWithGivenSum(node4, 9))
+        assert hasPathWithGivenSum(node4, 7))

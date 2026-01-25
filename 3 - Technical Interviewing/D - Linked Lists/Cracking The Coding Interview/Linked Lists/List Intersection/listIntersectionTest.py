@@ -1,15 +1,16 @@
-import unittest
+import pytest
 from listIntersection import *
 
-class TestStringMethods(unittest.TestCase):
+
+class TestStringMethods:
 
     def testWithNoneObject(self):
-        self.assertIsNone(isIntersection(None, None))
+        assert not isIntersection(None, None))
 
     def testSeparateLists(self):
         testNode = LinkedList(25, None)
         testNode2 = LinkedList(30, None)
-        self.assertIsNone(isIntersection(testNode, testNode2))
+        assert not isIntersection(testNode, testNode2))
 
     def testIntersectingLists(self):
         testNodeA = LinkedList(1, None)
@@ -25,12 +26,8 @@ class TestStringMethods(unittest.TestCase):
         testNodeD.next = testNodeE
         testNodeE.next = testNodeF
 
-        self.assertEqual(testNodeF, getTail(testNodeA))
-        self.assertEqual(testNodeF, getTail(testNodeB))
-        self.assertEqual(4, getSize(testNodeA))
-        self.assertEqual(5, getSize(testNodeB))
-        self.assertEqual(4, isIntersection(testNodeA, testNodeB).data)
-    
-   
-if __name__ == '__main__':
-   unittest.main()
+        assert testNodeF, getTail(testNodeA))
+        assert testNodeF, getTail(testNodeB))
+        assert 4, getSize(testNodeA))
+        assert 5, getSize(testNodeB))
+        assert 4, isIntersection(testNodeA, testNodeB).data)

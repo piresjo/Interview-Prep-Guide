@@ -8,7 +8,7 @@ def remove(head, k):
             return None
         pointerToEnd = pointerToEnd.next
 
-    while (pointerToEnd is not None):
+    while pointerToEnd is not None:
         pointerToEnd = pointerToEnd.next
         pointerBefore = pointerToReturn
         pointerToReturn = pointerToReturn.next
@@ -18,17 +18,18 @@ def remove(head, k):
     print(pointerToReturn.data)
     print(pointerToReturn.next.data)
     print("R")
-        
+
     pointerBefore.next = pointerToReturn.next
 
     print("S")
     print(pointerBefore.data)
     print(pointerBefore.next.data)
     print("T")
-    
+
     return head
 
+
 class LinkedList:
-  def __init__(self, data, next=None):
-    self.data = data
-    self.next = next
+    def __init__(self, data, next=None):
+        self.data = data
+        self.next = next

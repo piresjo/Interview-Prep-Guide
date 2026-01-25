@@ -1,14 +1,15 @@
-import unittest
+import pytest
 from kthSmallest import *
 
-class Test(unittest.TestCase):
-    
+
+class Test:
+
     def testWithNone(self):
-        self.assertIsNone(kthSmallestInBST(None, 30))
+        assert not kthSmallestInBST(None, 30))
 
     def testWithSingle(self):
         nodeVal = Tree(5)
-        self.assertEqual(kthSmallestInBST(nodeVal, 1), 5)
+        assert kthSmallestInBST(nodeVal, 1), 5)
 
     def testGeneral(self):
         nodeA = Tree(5)
@@ -28,11 +29,8 @@ class Test(unittest.TestCase):
         nodeC.right = nodeG
         nodeD.left = nodeH
 
-        self.assertEqual(kthSmallestInBST(nodeA, 1), 1)
-        self.assertEqual(kthSmallestInBST(nodeA, 2), 2)
-        self.assertEqual(kthSmallestInBST(nodeA, 3), 3)
-        self.assertEqual(kthSmallestInBST(nodeA, 4), 4)
-        self.assertEqual(kthSmallestInBST(nodeA, 5), 5)
-
-if __name__ == '__main__':
-   unittest.main()
+        assert kthSmallestInBST(nodeA, 1), 1)
+        assert kthSmallestInBST(nodeA, 2), 2)
+        assert kthSmallestInBST(nodeA, 3), 3)
+        assert kthSmallestInBST(nodeA, 4), 4)
+        assert kthSmallestInBST(nodeA, 5), 5)

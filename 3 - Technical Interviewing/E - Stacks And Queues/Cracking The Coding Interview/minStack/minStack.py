@@ -9,14 +9,13 @@ class MinStack:
             self.minStack.append(x)
             self.minVal = x
         self.stack.append(x)
-    
+
     def pop(self):
         value = self.stack.pop()
         if value == self.minVal:
             self.minStack.pop()
-            self.minVal = self.minStack[len(self.minStack)-1]
+            self.minVal = self.minStack[len(self.minStack) - 1]
         return value
-    
+
     def min(self):
         return self.minVal
-

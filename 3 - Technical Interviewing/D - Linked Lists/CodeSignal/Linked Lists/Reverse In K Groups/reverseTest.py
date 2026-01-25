@@ -1,7 +1,8 @@
-import unittest
+import pytest
 from reverse import *
 
-class Test(unittest.TestCase):
+
+class Test:
 
     def testGeneral(self):
         generalNodeA = ListNode(1)
@@ -14,9 +15,15 @@ class Test(unittest.TestCase):
         nodeC.next = nodeD
         nodeD.next = nodeE
 
-        self.assertEqual(testHelper(reverseNodesInKGroups(generalNodeA, 1)), [1, 2, 3, 4, 5])
-        self.assertEqual(testHelper(reverseNodesInKGroups(generalNodeA, 7)), [5, 4, 3, 2, 1])
-        self.assertEqual(testHelper(reverseNodesInKGroups(generalNodeA, 2)), [2, 1, 4, 3, 5])
+        assert 
+            testHelper(reverseNodesInKGroups(generalNodeA, 1)), [1, 2, 3, 4, 5]
+        )
+        assert 
+            testHelper(reverseNodesInKGroups(generalNodeA, 7)), [5, 4, 3, 2, 1]
+        )
+        assert 
+            testHelper(reverseNodesInKGroups(generalNodeA, 2)), [2, 1, 4, 3, 5]
+        )
 
 
 def testHelper(h):
@@ -26,7 +33,3 @@ def testHelper(h):
         returnList.append(curr.value)
         curr = curr.next
     return returnList
-
-
-if __name__ == '__main__':
-   unittest.main()

@@ -9,8 +9,8 @@ def findMiddle(list):
         slow = slow.next
         fast = fast.next.next
 
-
     return slow
+
 
 class ListNode(object):
     def __init__(self, x):

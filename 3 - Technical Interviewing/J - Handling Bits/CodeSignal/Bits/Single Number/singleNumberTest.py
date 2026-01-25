@@ -1,12 +1,9 @@
-import unittest
+import pytest
 from singleNumber import *
 
-class Test(unittest.TestCase):
+
+class Test:
     def test(self):
-        self.assertEqual(singleNumber([1, 2, 2, 3, 4, 1, 3]), 4)
-        self.assertEqual(singleNumber([1]), 1)
-        self.assertEqual(singleNumber([1, 2, 2, 3, 4, 1, 3, 4]), 0)
-
-
-if __name__ == '__main__':
-   unittest.main()
+        assert singleNumber([1, 2, 2, 3, 4, 1, 3]), 4)
+        assert singleNumber([1]), 1)
+        assert singleNumber([1, 2, 2, 3, 4, 1, 3, 4]), 0)

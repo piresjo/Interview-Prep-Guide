@@ -1,15 +1,16 @@
 from typing import no_type_check_decorator
-import unittest	
-from identical import *	
+import pytest
+from identical import *
 
-class TestStringMethods(unittest.TestCase):	
+
+class TestStringMethods:
 
     def testReturnTrue(self):
-        self.assertTrue(isTreeIdentical(None, None))
+        assert isTreeIdentical(None, None))
 
         nodeA = Tree(1)
         nodeB = Tree(1)
-        self.assertTrue(isTreeIdentical(nodeA, nodeB))	
+        assert isTreeIdentical(nodeA, nodeB))
 
         nodeB = Tree(2)
         nodeC = Tree(3)
@@ -20,11 +21,11 @@ class TestStringMethods(unittest.TestCase):
         nodeB.right = nodeC
         nodeD.right = nodeE
         nodeE.right = nodeF
-        self.assertTrue(isTreeIdentical(nodeA, nodeD))	
+        assert isTreeIdentical(nodeA, nodeD))
 
-    def testReturnFalse(self):	
+    def testReturnFalse(self):
         nodeA = Tree(1)
-        self.assertFalse(isTreeIdentical(nodeA, None))	
+        assert not isTreeIdentical(nodeA, None))
 
         nodeB = Tree(2)
         nodeC = Tree(3)
@@ -35,8 +36,4 @@ class TestStringMethods(unittest.TestCase):
         nodeB.right = nodeC
         nodeD.left = nodeE
         nodeE.left = nodeF
-        self.assertFalse(isTreeIdentical(nodeA, nodeD))				
-
-
-if __name__ == '__main__':	
-   unittest.main()
+        assert not isTreeIdentical(nodeA, nodeD))

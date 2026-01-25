@@ -1,19 +1,16 @@
-import unittest
+import pytest
 from loopDetection import *
 
-class TestStringMethods(unittest.TestCase):
+
+class TestStringMethods:
 
     def testWithNoneObject(self):
-        self.assertIsNone(whereIsLoop(None))
+        assert not whereIsLoop(None))
 
     def testDouble(self):
         test = LinkedList(20, LinkedList(25, None))
-        self.assertIsNone(whereIsLoop(test))
+        assert not whereIsLoop(test))
 
     def testSingle(self):
         testHead = LinkedList(20, None)
-        self.assertIsNone(whereIsLoop(testHead))
-
-    
-if __name__ == '__main__':
-   unittest.main()
+        assert not whereIsLoop(testHead))

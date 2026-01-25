@@ -1,10 +1,11 @@
-import unittest
+import pytest
 from removeKFromList import *
 
-class Test(unittest.TestCase):
+
+class Test:
 
     def testWithNone(self):
-        self.assertEqual(removeKFromList(None, -1000), None)
+        assert removeKFromList(None, -1000), None)
 
     def testKNotFound(self):
         nodeA = ListNode(1)
@@ -13,10 +14,10 @@ class Test(unittest.TestCase):
         nodeA.next = nodeB
         nodeB.next = nodeC
         reducedList = removeKFromList(nodeA, -1000)
-        self.assertEqual(removeKFromList(nodeA, -1000), nodeA)
-        self.assertEqual(reducedList.value, 1)
-        self.assertEqual(reducedList.next.value, 2)
-        self.assertEqual(reducedList.next.next.value, 3)
+        assert removeKFromList(nodeA, -1000), nodeA)
+        assert reducedList.value, 1)
+        assert reducedList.next.value, 2)
+        assert reducedList.next.next.value, 3)
 
     def testKFound(self):
         nodeA = ListNode(1)
@@ -25,12 +26,6 @@ class Test(unittest.TestCase):
         nodeA.next = nodeB
         nodeB.next = nodeC
         reducedList = removeKFromList(nodeA, 2)
-        self.assertEqual(reducedList.value, 1)
-        self.assertEqual(reducedList.next.value, 3)
-        self.assertIsNone(reducedList.next.next)
-
-
-   
-
-if __name__ == '__main__':
-   unittest.main()
+        assert reducedList.value, 1)
+        assert reducedList.next.value, 3)
+        assert not reducedList.next.next)

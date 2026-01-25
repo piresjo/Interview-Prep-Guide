@@ -1,93 +1,85 @@
-import unittest	
-from traversals import *	
-
-class Test(unittest.TestCase):	
-
-    def testLevelOrderWithNoneObject(self):	
-        self.assertIsNone(levelOrder(None))	
-
-    def testLevelOrderSingle(self):	
-        node = BSTNode(1)	
-        self.assertEqual("1", levelOrder(node))	
+import pytest
+from traversals import *
 
 
-    def testLevelOrderGeneralCase(self):	
-        node1 = BSTNode(1)	
-        node2 = BSTNode(2)	
-        node3 = BSTNode(3)	
-        node4 = BSTNode(4)	
-        node5 = BSTNode(5)	
+class Test:
 
-        node4.left = node2	
-        node2.left = node1	
-        node2.right = node3	
-        node4.right = node5	
-        self.assertEqual("4 2 5 1 3", levelOrder(node4))	
+    def testLevelOrderWithNoneObject(self):
+        assert not levelOrder(None))
 
-    def testInOrderWithNoneObject(self):	
-        self.assertEqual("", inOrder(None))	
+    def testLevelOrderSingle(self):
+        node = BSTNode(1)
+        assert "1", levelOrder(node))
 
-    def testInOrderSingle(self):	
-        node = BSTNode(1)	
-        self.assertEqual("1", inOrder(node))	
+    def testLevelOrderGeneralCase(self):
+        node1 = BSTNode(1)
+        node2 = BSTNode(2)
+        node3 = BSTNode(3)
+        node4 = BSTNode(4)
+        node5 = BSTNode(5)
 
+        node4.left = node2
+        node2.left = node1
+        node2.right = node3
+        node4.right = node5
+        assert "4 2 5 1 3", levelOrder(node4))
 
-    def testInOrderGeneralCase(self):	
-        node1 = BSTNode(1)	
-        node2 = BSTNode(2)	
-        node3 = BSTNode(3)	
-        node4 = BSTNode(4)	
-        node5 = BSTNode(5)	
+    def testInOrderWithNoneObject(self):
+        assert "", inOrder(None))
 
-        node4.left = node2	
-        node2.left = node1	
-        node2.right = node3	
-        node4.right = node5	
-        self.assertEqual("1 2 3 4 5", inOrder(node4))	
+    def testInOrderSingle(self):
+        node = BSTNode(1)
+        assert "1", inOrder(node))
 
-    def testPreOrderWithNoneObject(self):	
-        self.assertEqual("", preOrder(None))	
+    def testInOrderGeneralCase(self):
+        node1 = BSTNode(1)
+        node2 = BSTNode(2)
+        node3 = BSTNode(3)
+        node4 = BSTNode(4)
+        node5 = BSTNode(5)
 
-    def testPreOrderSingle(self):	
-        node = BSTNode(1)	
-        self.assertEqual("1", preOrder(node))	
+        node4.left = node2
+        node2.left = node1
+        node2.right = node3
+        node4.right = node5
+        assert "1 2 3 4 5", inOrder(node4))
 
+    def testPreOrderWithNoneObject(self):
+        assert "", preOrder(None))
 
-    def testPreOrderGeneralCase(self):	
-        node1 = BSTNode(1)	
-        node2 = BSTNode(2)	
-        node3 = BSTNode(3)	
-        node4 = BSTNode(4)	
-        node5 = BSTNode(5)	
+    def testPreOrderSingle(self):
+        node = BSTNode(1)
+        assert "1", preOrder(node))
 
-        node4.left = node2	
-        node2.left = node1	
-        node2.right = node3	
-        node4.right = node5	
-        self.assertEqual("1 2 3 5 4", preOrder(node4))	
+    def testPreOrderGeneralCase(self):
+        node1 = BSTNode(1)
+        node2 = BSTNode(2)
+        node3 = BSTNode(3)
+        node4 = BSTNode(4)
+        node5 = BSTNode(5)
 
-    def testPostOrderWithNoneObject(self):	
-        self.assertEqual("", postOrder(None))	
+        node4.left = node2
+        node2.left = node1
+        node2.right = node3
+        node4.right = node5
+        assert "1 2 3 5 4", preOrder(node4))
 
-    def testPostOrderSingle(self):	
-        node = BSTNode(1)	
-        self.assertEqual("1", postOrder(node))	
+    def testPostOrderWithNoneObject(self):
+        assert "", postOrder(None))
 
+    def testPostOrderSingle(self):
+        node = BSTNode(1)
+        assert "1", postOrder(node))
 
-    def testPostOrderGeneralCase(self):	
-        node1 = BSTNode(1)	
-        node2 = BSTNode(2)	
-        node3 = BSTNode(3)	
-        node4 = BSTNode(4)	
-        node5 = BSTNode(5)	
+    def testPostOrderGeneralCase(self):
+        node1 = BSTNode(1)
+        node2 = BSTNode(2)
+        node3 = BSTNode(3)
+        node4 = BSTNode(4)
+        node5 = BSTNode(5)
 
-        node4.left = node2	
-        node2.left = node1	
-        node2.right = node3	
-        node4.right = node5	
-        self.assertEqual("4 1 2 3 5", postOrder(node4))	
-
-
-
-if __name__ == '__main__':	
-    unittest.main()
+        node4.left = node2
+        node2.left = node1
+        node2.right = node3
+        node4.right = node5
+        assert "4 1 2 3 5", postOrder(node4))

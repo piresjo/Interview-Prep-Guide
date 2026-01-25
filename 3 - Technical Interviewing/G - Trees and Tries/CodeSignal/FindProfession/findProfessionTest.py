@@ -1,20 +1,17 @@
-import unittest
+import pytest
 from findProfession import *
 
-class Test(unittest.TestCase):
-    
+
+class Test:
+
     def testWithBase(self):
-       self.assertEqual(findProfession(1, 1), "Engineer")
+        assert findProfession(1, 1), "Engineer")
 
     def testOnLevel2(self):
-       self.assertEqual(findProfession(2, 2), "Doctor")
+        assert findProfession(2, 2), "Doctor")
 
     def testOnLevel3(self):
-       self.assertEqual(findProfession(3, 3), "Doctor")
-    
-    def testAdvanced(self):
-        self.assertEqual(findProfession(25, 16777216), "Engineer")
-      
+        assert findProfession(3, 3), "Doctor")
 
-if __name__ == '__main__':
-   unittest.main()
+    def testAdvanced(self):
+        assert findProfession(25, 16777216), "Engineer")

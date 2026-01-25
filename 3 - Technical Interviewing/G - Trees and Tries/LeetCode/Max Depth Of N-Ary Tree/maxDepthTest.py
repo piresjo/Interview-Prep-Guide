@@ -1,14 +1,15 @@
-import unittest
+import pytest
 from maxDepth import *
 
-class Test(unittest.TestCase):
-    
+
+class Test:
+
     def testWithNone(self):
-        self.assertEqual(maxDepth(None), 0)
+        assert maxDepth(None), 0)
 
     def testSingle(self):
         nodeVal = Node(5)
-        self.assertEqual(maxDepth(nodeVal), 1)
+        assert maxDepth(nodeVal), 1)
 
     def testGeneral(self):
         nodeA = Node(5)
@@ -23,13 +24,7 @@ class Test(unittest.TestCase):
         nodeB.children = [nodeF, nodeG]
         nodeF.children = [nodeH]
 
-        self.assertEqual(maxDepth(nodeA), 4)
+        assert maxDepth(nodeA), 4)
 
         nodeF.children = []
-        self.assertEqual(maxDepth(nodeA), 3)
-
-
-      
-
-if __name__ == '__main__':
-   unittest.main()
+        assert maxDepth(nodeA), 3)

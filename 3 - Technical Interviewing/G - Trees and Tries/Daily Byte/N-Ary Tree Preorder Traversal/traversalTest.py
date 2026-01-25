@@ -1,8 +1,9 @@
-import unittest
+import pytest
 from traversal import *
 from traversalIterative import *
 
-class Test(unittest.TestCase):
+
+class Test:
 
     def testBasic(self):
         headNode = Node(1)
@@ -14,9 +15,5 @@ class Test(unittest.TestCase):
         node3.children = [node5, node6]
         headNode.children = [node3, node2, node4]
 
-        self.assertEqual(preorder(headNode), [1,3,5,6,2,4])
-        self.assertEqual(preorderIterative(headNode), [1,3,5,6,2,4])
-        
-
-if __name__ == '__main__':
-   unittest.main()
+        assert preorder(headNode), [1, 3, 5, 6, 2, 4])
+        assert preorderIterative(headNode), [1, 3, 5, 6, 2, 4])

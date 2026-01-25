@@ -19,5 +19,5 @@ def uncommon(str1, str2):
     for word in wordDict.keys():
         if wordDict[word] == 1:
             returnList.append(word)
-    
+
     return returnList

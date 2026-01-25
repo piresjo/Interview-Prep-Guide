@@ -1,14 +1,15 @@
-import unittest
+import pytest
 from sum import *
 
-class Test(unittest.TestCase):
-    
+
+class Test:
+
     def testWithNone(self):
-        self.assertEqual(deepestLeavesSum(None), 0)
+        assert deepestLeavesSum(None), 0)
 
     def testSingle(self):
         nodeVal = TreeNode(5)
-        self.assertEqual(deepestLeavesSum(nodeVal), 5)
+        assert deepestLeavesSum(nodeVal), 5)
 
     def testGeneral(self):
         nodeA = TreeNode(5)
@@ -28,13 +29,7 @@ class Test(unittest.TestCase):
         nodeC.right = nodeG
         nodeD.left = nodeH
 
-        self.assertEqual(deepestLeavesSum(nodeA), 1)
+        assert deepestLeavesSum(nodeA), 1)
 
         nodeD.left = None
-        self.assertEqual(deepestLeavesSum(nodeA), 20)
-
-
-      
-
-if __name__ == '__main__':
-   unittest.main()
+        assert deepestLeavesSum(nodeA), 20)
