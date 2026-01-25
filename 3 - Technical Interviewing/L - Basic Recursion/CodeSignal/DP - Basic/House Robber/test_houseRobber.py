@@ -5,15 +5,15 @@ from houseRobber import *
 class Test:
 
     def testWithEdgeCases(self):
-        assert houseRobber(None), 0)
-        assert houseRobber([]), 0)
-        assert houseRobber([1]), 1)
-        assert houseRobber([1, 4]), 4)
+        assert houseRobber(None) == 0
+        assert houseRobber([]) == 0
+        assert houseRobber([1]) == 1
+        assert houseRobber([1, 4]) == 4
 
     def testGeneralCases(self):
-        assert houseRobber([1, 1, 1]), 2)
-        assert houseRobber([1, 2, 1, 0]), 2)
-        assert 
+        assert houseRobber([1, 1, 1]) == 2
+        assert houseRobber([1, 2, 1, 0]) == 2
+        assert (
             houseRobber(
                 [
                     55,
@@ -40,6 +40,6 @@ class Test:
                     65,
                     102,
                 ]
-            ),
-            1758,
+            )
+            == 1758
         )

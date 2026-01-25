@@ -20,6 +20,6 @@ class Test:
         stringsC = ["cat", "dog", "doggy"]
         patternsC = ["a", "b", "b"]
 
-        assert areFollowingPatterns(stringsA, patternsA))
-        assert areFollowingPatterns(stringsB, patternsB))
-        assert not areFollowingPatterns(stringsC, patternsC))
+        assert areFollowingPatterns(stringsA, patternsA)
+        assert areFollowingPatterns(stringsB, patternsB)
+        assert not areFollowingPatterns(stringsC, patternsC)

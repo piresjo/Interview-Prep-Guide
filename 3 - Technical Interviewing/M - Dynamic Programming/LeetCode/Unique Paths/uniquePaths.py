@@ -12,7 +12,7 @@ you the number of paths for that section of the matrix.
 """
 
 
-def uniquePaths(self, m: int, n: int) -> int:
+def uniquePaths(m: int, n: int) -> int:
     if m == 0 or n == 0:
         return 0
     if m == 1 or n == 1:
