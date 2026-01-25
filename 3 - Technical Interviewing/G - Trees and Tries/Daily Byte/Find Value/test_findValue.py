@@ -1,10 +1,10 @@
 import pytest
-from convert import *
+from findValue import *
 
 
 class TestStringMethods:
 
-    def testHappyPath(self):
+    def testGeneral(self):
         node1 = BSTNode(1)
         node2 = BSTNode(2)
         node3 = BSTNode(3)
@@ -20,7 +20,9 @@ class TestStringMethods:
         node6.left = node5
         node6.right = node7
 
-        sortedList = convert(node4)
-        assert sortedList.data, 1)
-        assert sortedList.next.data, 2)
-        assert sortedList.next.next.data, 3)
+        assert find(None, None) == None
+        assert find(node1, None) == None
+        assert find(node4, 7) == node7
+        assert find(node4, 1) == node1
+        assert find(node4, 4) == node4
+        assert find(node4, 17) == None

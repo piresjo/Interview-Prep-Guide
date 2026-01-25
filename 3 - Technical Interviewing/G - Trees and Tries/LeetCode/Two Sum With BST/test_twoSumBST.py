@@ -1,15 +1,15 @@
 import pytest
-from twoSum import *
+from twoSumBST import *
 
 
 class Test:
 
     def testWithNone(self):
-        assert not findTarget(None, 7))
+        assert not findTarget(None, 7)
 
     def testSingle(self):
         nodeVal = TreeNode(5)
-        assert not findTarget(nodeVal, 5))
+        assert not findTarget(nodeVal, 5)
 
     def testGeneral(self):
         nodeA = TreeNode(5)
@@ -29,5 +29,5 @@ class Test:
         nodeC.right = nodeG
         nodeD.left = nodeH
 
-        assert not findTarget(nodeA, 500))
-        assert findTarget(nodeA, 10))
+        assert not findTarget(nodeA, 500)
+        assert findTarget(nodeA, 10)

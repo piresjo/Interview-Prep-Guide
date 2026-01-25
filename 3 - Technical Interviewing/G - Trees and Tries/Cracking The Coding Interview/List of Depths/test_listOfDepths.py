@@ -1,15 +1,15 @@
 import pytest
-from average import *
+from listOfDepths import *
 
 
 class Test:
 
     def testWithNone(self):
-        assert averageOfLevels(None), [])
+        assert listOfDepths(None) == []
 
     def testSingle(self):
         nodeVal = TreeNode(5)
-        assert averageOfLevels(nodeVal), [5])
+        assert listOfDepths(nodeVal) == [[5]]
 
     def testGeneral(self):
         nodeA = TreeNode(5)
@@ -29,4 +29,4 @@ class Test:
         nodeC.right = nodeG
         nodeD.left = nodeH
 
-        assert averageOfLevels(nodeA), [5, 5, 5, 1])
+        assert listOfDepths(nodeA) == [[5], [3, 7], [2, 4, 6, 8], [1]]

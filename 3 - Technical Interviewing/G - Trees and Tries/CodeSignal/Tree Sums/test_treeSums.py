@@ -4,10 +4,10 @@ from treeSums import *
 
 class Test:
     def testWithNone(self):
-        assert digitTreeSum(None), 0)
+        assert digitTreeSum(None) == 0
 
     def testWithSingle(self):
-        assert digitTreeSum(Tree(5)), 5)
+        assert digitTreeSum(Tree(5)) == 5
 
     def testGeneral(self):
         nodeA = Tree(5)
@@ -27,4 +27,4 @@ class Test:
         nodeC.right = nodeG
         nodeD.left = nodeH
 
-        assert digitTreeSum(nodeA), 7009)
+        assert digitTreeSum(nodeA) == 7009

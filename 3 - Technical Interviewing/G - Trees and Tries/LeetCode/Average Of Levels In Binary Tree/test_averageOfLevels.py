@@ -1,15 +1,15 @@
 import pytest
-from largestVals import *
+from averageOfLevels import *
 
 
 class Test:
 
     def testWithNone(self):
-        assert largestValuesInTreeRows(None), [])
+        assert averageOfLevels(None) == []
 
     def testSingle(self):
         nodeVal = TreeNode(5)
-        assert largestValuesInTreeRows(nodeVal), [5])
+        assert averageOfLevels(nodeVal) == [5]
 
     def testGeneral(self):
         nodeA = TreeNode(5)
@@ -29,4 +29,4 @@ class Test:
         nodeC.right = nodeG
         nodeD.left = nodeH
 
-        assert largestValuesInTreeRows(nodeA), [5, 7, 8, 1])
+        assert averageOfLevels(nodeA) == [5, 5, 5, 1]

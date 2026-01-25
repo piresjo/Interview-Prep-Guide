@@ -5,7 +5,7 @@ from isSubtree import *
 class Test:
 
     def testWithNoneObject(self):
-        assert not isSubtree(None, None))
+        assert not isSubtree(None, None)
 
     def testHappyPath(self):
         node1 = BSTNode(1)
@@ -19,4 +19,4 @@ class Test:
         node2.right = node3
         node4.right = node5
 
-        assert isSubtree(node4, node2))
+        assert isSubtree(node4, node2)

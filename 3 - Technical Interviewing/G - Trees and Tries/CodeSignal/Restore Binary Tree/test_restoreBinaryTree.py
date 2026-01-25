@@ -1,15 +1,15 @@
 import pytest
-from restore import *
+from restoreBinaryTree import *
 
 
 class Test:
 
     def testWithNone(self):
-        assert not restoreBinaryTree([], []))
+        assert not restoreBinaryTree([], [])
 
     def testWithSingle(self):
         nodeVal = Tree(5)
-        assert identicalTrees(nodeVal, restoreBinaryTree([5], [5])))
+        assert identicalTrees(nodeVal, restoreBinaryTree([5], [5]))
 
     def testGeneral(self):
         nodeA = Tree(5)
@@ -31,7 +31,7 @@ class Test:
 
         preOrder = [5, 3, 2, 1, 4, 7, 6, 8]
         inOrder = [1, 2, 3, 4, 5, 6, 7, 8]
-        assert identicalTrees(nodeA, restoreBinaryTree(inOrder, preOrder)))
+        assert identicalTrees(nodeA, restoreBinaryTree(inOrder, preOrder))
 
 
 def identicalTrees(a, b):

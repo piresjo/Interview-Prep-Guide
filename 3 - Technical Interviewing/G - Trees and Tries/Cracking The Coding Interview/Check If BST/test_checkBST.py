@@ -5,11 +5,11 @@ from checkBST import *
 class TestStringMethods:
 
     def testWithNoneObject(self):
-        assert isBST(None))
+        assert isBST(None)
 
     def testWithSingleNode(self):
         head = BSTNode(25)
-        assert isBST(head))
+        assert isBST(head)
 
     def testHappyPath(self):
         node1 = BSTNode(1)
@@ -27,7 +27,7 @@ class TestStringMethods:
         node6.left = node5
         node6.right = node7
 
-        assert isBST(node4))
+        assert isBST(node4)
 
     def testFalsePath(self):
         node1 = BSTNode(1)
@@ -45,4 +45,4 @@ class TestStringMethods:
         node6.left = node5
         node6.right = node7
 
-        assert not isBST(node4))
+        assert not isBST(node4)

@@ -5,7 +5,7 @@ from pathGivenSum import *
 class Test:
 
     def testWithNoneObject(self):
-        assert not hasPathWithGivenSum(None, 0))
+        assert not hasPathWithGivenSum(None, 0)
 
     def testGeneralCase(self):
         node1 = Tree(1)
@@ -19,7 +19,7 @@ class Test:
         node2.right = node3
         node4.right = node5
 
-        assert not hasPathWithGivenSum(node4, 20))
-        assert not hasPathWithGivenSum(node4, 10))
-        assert hasPathWithGivenSum(node4, 9))
-        assert hasPathWithGivenSum(node4, 7))
+        assert not hasPathWithGivenSum(node4, 20)
+        assert not hasPathWithGivenSum(node4, 10)
+        assert hasPathWithGivenSum(node4, 9)
+        assert hasPathWithGivenSum(node4, 7)

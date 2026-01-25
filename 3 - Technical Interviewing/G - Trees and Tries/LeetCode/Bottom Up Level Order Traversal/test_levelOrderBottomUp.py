@@ -1,15 +1,15 @@
 import pytest
-from sum import *
+from levelOrderBottomUp import *
 
 
 class Test:
 
     def testWithNone(self):
-        assert deepestLeavesSum(None), 0)
+        assert levelOrderBottom(None) == []
 
     def testSingle(self):
         nodeVal = TreeNode(5)
-        assert deepestLeavesSum(nodeVal), 5)
+        assert levelOrderBottom(nodeVal) == [[5]]
 
     def testGeneral(self):
         nodeA = TreeNode(5)
@@ -29,7 +29,4 @@ class Test:
         nodeC.right = nodeG
         nodeD.left = nodeH
 
-        assert deepestLeavesSum(nodeA), 1)
-
-        nodeD.left = None
-        assert deepestLeavesSum(nodeA), 20)
+        assert levelOrderBottom(nodeA) == [[1], [2, 4, 6, 8], [3, 7], [5]]

@@ -5,11 +5,11 @@ from isBalanced import *
 class TestStringMethods:
 
     def testWithNoneObject(self):
-        assert isBalanced(None))
+        assert isBalanced(None)
 
     def testWithSingleNode(self):
         head = BSTNode(25)
-        assert isBalanced(head))
+        assert isBalanced(head)
 
     def testHappyPath(self):
         node1 = BSTNode(1)
@@ -27,7 +27,7 @@ class TestStringMethods:
         node6.left = node5
         node6.right = node7
 
-        assert isBalanced(node4))
+        assert isBalanced(node4)
 
     def testUnbalanced(self):
         node1 = BSTNode(1)
@@ -45,4 +45,4 @@ class TestStringMethods:
         node6.left = node5
         node6.right = node7
 
-        assert not isBalanced(node4))
+        assert not isBalanced(node4)

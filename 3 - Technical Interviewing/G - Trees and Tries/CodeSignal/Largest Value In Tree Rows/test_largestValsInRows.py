@@ -1,15 +1,15 @@
 import pytest
-from listOfDepths import *
+from largestValsInRows import *
 
 
 class Test:
 
     def testWithNone(self):
-        assert listOfDepths(None), [])
+        assert largestValuesInTreeRows(None) == []
 
     def testSingle(self):
         nodeVal = TreeNode(5)
-        assert listOfDepths(nodeVal), [[5]])
+        assert largestValuesInTreeRows(nodeVal) == [5]
 
     def testGeneral(self):
         nodeA = TreeNode(5)
@@ -29,4 +29,4 @@ class Test:
         nodeC.right = nodeG
         nodeD.left = nodeH
 
-        assert listOfDepths(nodeA), [[5], [3, 7], [2, 4, 6, 8], [1]])
+        assert largestValuesInTreeRows(nodeA) == [5, 7, 8, 1]

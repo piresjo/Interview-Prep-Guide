@@ -5,7 +5,7 @@ from longestConsecutive import *
 class Test:
 
     def testWithNone(self):
-        assert longestConsecutive(None), 0)
+        assert longestConsecutive(None) == 0
 
     def testReturn1(self):
         nodeA = TreeNode(1)
@@ -16,7 +16,7 @@ class Test:
         nodeA.left = nodeB
         nodeA.right = nodeC
         nodeB.right = nodeD
-        assert longestConsecutive(nodeA), 1)
+        assert longestConsecutive(nodeA) == 1
 
     def testGeneral(self):
         nodeA = TreeNode(1)
@@ -29,4 +29,4 @@ class Test:
         nodeA.right = nodeC
         nodeC.left = nodeD
         nodeD.right = nodeE
-        assert longestConsecutive(nodeA), 3)
+        assert longestConsecutive(nodeA) == 3

@@ -1,15 +1,15 @@
 import pytest
-from maxDepth import *
+from maxDepthBinary import *
 
 
 class Test:
 
     def testWithNone(self):
-        assert maxDepth(None), 0)
+        assert maxDepth(None) == 0
 
     def testSingle(self):
         nodeVal = TreeNode(5)
-        assert maxDepth(nodeVal), 1)
+        assert maxDepth(nodeVal) == 1
 
     def testGeneral(self):
         nodeA = TreeNode(5)
@@ -29,7 +29,7 @@ class Test:
         nodeC.right = nodeG
         nodeD.left = nodeH
 
-        assert maxDepth(nodeA), 4)
+        assert maxDepth(nodeA) == 4
 
         nodeD.left = None
-        assert maxDepth(nodeA), 3)
+        assert maxDepth(nodeA) == 3

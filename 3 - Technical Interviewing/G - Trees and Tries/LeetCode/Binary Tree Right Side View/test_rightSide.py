@@ -5,7 +5,7 @@ from rightSide import *
 class Test:
 
     def testWithNone(self):
-        assert rightSideView(None), [])
+        assert rightSideView(None) == []
 
     def testBalancedTree(self):
         nodeA = TreeNode(1)
@@ -23,7 +23,7 @@ class Test:
         nodeC.left = nodeF
         nodeC.right = nodeG
 
-        assert rightSideView(nodeA), [1, 3, 7])
+        assert rightSideView(nodeA) == [1, 3, 7]
 
     def testRightTree(self):
         nodeA = TreeNode(1)
@@ -38,7 +38,7 @@ class Test:
         nodeB.right = nodeE
         nodeC.left = nodeF
         nodeC.right = nodeG
-        assert rightSideView(nodeA), [1, 3, 7])
+        assert rightSideView(nodeA) == [1, 3, 7]
 
     def testLeftTree(self):
         nodeA = TreeNode(1)
@@ -51,7 +51,7 @@ class Test:
 
         nodeA.left = nodeB
         nodeB.left = nodeD
-        assert rightSideView(nodeA), [1, 2, 4])
+        assert rightSideView(nodeA) == [1, 2, 4]
 
     def testMixedTree(self):
         nodeA = TreeNode(1)
@@ -65,4 +65,4 @@ class Test:
         nodeA.right = nodeC
         nodeC.left = nodeF
 
-        assert rightSideView(nodeA), [1, 3, 6])
+        assert rightSideView(nodeA) == [1, 3, 6]

@@ -1,15 +1,15 @@
 import pytest
-from maxDepth import *
+from maxDepthNAry import *
 
 
 class Test:
 
     def testWithNone(self):
-        assert maxDepth(None), 0)
+        assert maxDepth(None) == 0
 
     def testSingle(self):
         nodeVal = Node(5)
-        assert maxDepth(nodeVal), 1)
+        assert maxDepth(nodeVal) == 1
 
     def testGeneral(self):
         nodeA = Node(5)
@@ -24,7 +24,7 @@ class Test:
         nodeB.children = [nodeF, nodeG]
         nodeF.children = [nodeH]
 
-        assert maxDepth(nodeA), 4)
+        assert maxDepth(nodeA) == 4
 
         nodeF.children = []
-        assert maxDepth(nodeA), 3)
+        assert maxDepth(nodeA) == 3

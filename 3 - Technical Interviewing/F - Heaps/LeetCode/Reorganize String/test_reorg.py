@@ -5,4 +5,4 @@ from reorg import *
 class Test:
 
     def testGeneral(self):
-        assert reorganizeString("aab"), "aba")
+        assert reorganizeString("aab") == "aba"
