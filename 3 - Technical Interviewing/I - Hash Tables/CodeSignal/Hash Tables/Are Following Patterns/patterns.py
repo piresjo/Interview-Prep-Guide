@@ -1,13 +1,13 @@
 def areFollowingPatterns(strings, patterns):
-    # Sanity check. If lengths are different, 
+    # Sanity check. If lengths are different,
     if len(strings) != len(patterns):
         return False
-        
+
     # need to map patterns to strings
     # we also need to ensure that we're not double counting strings, hence the set
     patternDict = {}
     stringSet = set()
-    
+
     for i in range(0, len(strings)):
         if patterns[i] not in patternDict:
             # add to pattern dict, if string wasn't already used (and therefore would be in set)
@@ -20,4 +20,3 @@ def areFollowingPatterns(strings, patterns):
                 return False
         stringSet.add(strings[i])
     return True
-

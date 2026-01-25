@@ -8,6 +8,7 @@ def hasPathWithGivenSum(t, s):
 
     return hasPathWithGivenSum(t.left, s) or hasPathWithGivenSum(t.right, s)
 
+
 class Tree(object):
     def __init__(self, x):
         self.value = x

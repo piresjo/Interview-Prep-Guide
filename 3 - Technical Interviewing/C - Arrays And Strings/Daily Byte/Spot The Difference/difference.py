@@ -9,5 +9,5 @@ def difference(str1, str2):
     for char in str2:
         if char not in charDict1:
             return char
-    
-    return ''
+
+    return ""

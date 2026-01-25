@@ -8,6 +8,7 @@ def contains(head):
         pointer = pointer.next
     return False
 
+
 class ListNode(object):
     def __init__(self, x):
         self.value = x

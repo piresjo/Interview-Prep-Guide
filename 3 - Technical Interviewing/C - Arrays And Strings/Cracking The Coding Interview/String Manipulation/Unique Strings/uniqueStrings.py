@@ -15,6 +15,7 @@ def allUniqueChars(str1):
             return False
     return True
 
+
 # We can't use extra memory
 # Assume that python's internal string sort is using quicksort, which uses little memory
 # Runtime will be O(nln(n))
@@ -29,5 +30,3 @@ def allUniqueCharsNoMemory(str1):
             return False
 
     return True
-
-    

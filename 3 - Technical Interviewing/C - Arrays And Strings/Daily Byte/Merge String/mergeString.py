@@ -7,5 +7,5 @@ def mergeString(s, t):
             mergeString += s[i]
         if i < len(t):
             mergeString += t[i]
-    
+
     return mergeString

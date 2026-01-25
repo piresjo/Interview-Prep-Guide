@@ -11,22 +11,22 @@ def oneAwayOrLess(str1, str2):
     # Return false if dealing with null strings
     if str1 is None or str2 is None:
         return False
-    
+
     if str1 == str2:
         return True
 
     if abs(len(str1) - len(str2)) > 1:
         return False
-    
+
     str1Dict = populateDict(str1, {})
     str2Dict = populateDict(str2, {})
 
     biggerDict = None
     smallerDict = None
 
-    if abs(len(str1))- abs(len(str2)) == 1:
+    if abs(len(str1)) - abs(len(str2)) == 1:
         biggerDict = str1Dict if (len(str1) > len(str2)) else str2Dict
-        smallerDict =  str1Dict if (len(str1) < len(str2)) else str2Dict
+        smallerDict = str1Dict if (len(str1) < len(str2)) else str2Dict
     else:
         biggerDict = str1Dict
         smallerDict = str2Dict
@@ -37,10 +37,7 @@ def oneAwayOrLess(str1, str2):
         if k not in smallerDict:
             numIncorrect += 1
         else:
-            numIncorrect += (biggerDict[k] - smallerDict[k])
+            numIncorrect += biggerDict[k] - smallerDict[k]
         if numIncorrect > 1:
             return False
     return True
-
-
-    

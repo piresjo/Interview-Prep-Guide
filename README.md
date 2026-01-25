@@ -22,7 +22,11 @@ To Be Added
 
 ### Python
 
-To Be Added
+Right now, there is basic pytest support which will go through all tests for the Python examples. To run:
+
+```
+make test_all
+```
 
 ### C
 

@@ -14,7 +14,7 @@ def rotateMatrix(matrix):
         firstVal = layer
         lastVal = lenVal - 1 - layer
 
-        for i in range (firstVal, lastVal):
+        for i in range(firstVal, lastVal):
             offset = i - firstVal
             top = matrix[firstVal][i]
 
@@ -24,4 +24,3 @@ def rotateMatrix(matrix):
             matrix[i][lastVal] = top
 
     return matrix
-
