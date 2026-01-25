@@ -13,18 +13,7 @@ def remove(head, k):
         pointerBefore = pointerToReturn
         pointerToReturn = pointerToReturn.next
 
-    print("Q")
-    print(pointerBefore.data)
-    print(pointerToReturn.data)
-    print(pointerToReturn.next.data)
-    print("R")
-
     pointerBefore.next = pointerToReturn.next
-
-    print("S")
-    print(pointerBefore.data)
-    print(pointerBefore.next.data)
-    print("T")
 
     return head
 
