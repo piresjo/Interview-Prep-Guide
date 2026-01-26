@@ -9,7 +9,7 @@ This is a collection of notes and sample coding challenges I've been using for i
 | Title                                 	| Link                                                                                                                             	|
 |---------------------------------------	|----------------------------------------------------------------------------------------------------------------------------------	|
 | Intro                                 	| [Intro](https://github.com/piresjo/Interview-Prep-Guide/tree/master/1%20-%20Intro)                                               	|
-| Starting The Interview Process        	|                                                                                                                                  	|
+| Starting The Interview Process        	| [Starting The Interview Process](https://github.com/piresjo/Interview-Prep-Guide/tree/master/2%20-%20Starting%20The%20Interview%20Process)                                                                                                                                   |
 | Technical Interviewing                	| [Technical Interviewing](https://github.com/piresjo/Interview-Prep-Guide/tree/master/3%20-%20Technical%20Interviewing)           	|
 | System Design Interviewing            	| [System Design Interviewing](https://github.com/piresjo/Interview-Prep-Guide/tree/master/4%20-%20System%20Design%20Interviewing) 	|
 | Behavioral Interviewing               	|                                                                                                                                  	|
