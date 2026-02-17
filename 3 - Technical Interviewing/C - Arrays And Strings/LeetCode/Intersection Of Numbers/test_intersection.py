@@ -1,0 +1,18 @@
+import pytest
+from intersection import *
+
+
+class Test:
+    def testGeneral(self):
+        assert intersection([2, 4, 4, 2], [2, 4]) == [2, 4]
+        assert intersection([1, 2, 3, 3], [3, 3]) == [3]
+        assert intersection([2, 4, 6, 8], [1, 3, 5, 7]) == []
+        assert intersection([1, 2, 2, 1], [2, 2]) == [2]
+        assert intersection([4, 9, 5], [9, 4, 9, 8, 4]) == [9, 4]
+
+    def testAlternate(self):
+        assert intersectionAlt([2, 4, 4, 2], [2, 4]) == [2, 4]
+        assert intersectionAlt([1, 2, 3, 3], [3, 3]) == [3]
+        assert intersectionAlt([2, 4, 6, 8], [1, 3, 5, 7]) == []
+        assert intersectionAlt([1, 2, 2, 1], [2, 2]) == [2]
+        assert intersectionAlt([4, 9, 5], [9, 4, 9, 8, 4]) == [4, 9]
