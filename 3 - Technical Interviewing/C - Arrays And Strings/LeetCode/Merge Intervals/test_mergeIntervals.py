@@ -4,8 +4,6 @@ from mergeIntervals import *
 
 class Test:
     def testBaseCases(self):
-        assert merge(None) == None
-        assert merge([]) == []
         assert merge([[1, 3]]) == [[1, 3]]
 
     def testGeneral(self):

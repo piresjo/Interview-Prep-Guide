@@ -1,21 +1,21 @@
-def merge(intervals):
-    if not intervals or len(intervals) <= 1:
-        return intervals
+from typing import List
 
+
+def merge(intervals: List[List[int]]) -> List[List[int]]:
+    sortedIntervals = sorted(intervals, key=lambda x: x[0])
+        
     returnList = []
-    intervals.sort(key=lambda x: x[0])
-    currInterval = intervals[0]
-    returnList.append(currInterval)
+    appendList = sortedIntervals[0]
 
-    for interval in intervals:
-        currBegin = currInterval[0]
-        currEnd = currInterval[1]
-        nextBegin = interval[0]
-        nextEnd = interval[1]
+    for i in range(len(sortedIntervals)):
+        intervalVal = sortedIntervals[i]
 
-        if currEnd >= nextBegin:
-            currInterval[1] = max(currEnd, nextEnd)
+        if intervalVal[0] <= appendList[1]:
+            if intervalVal[1] > appendList[1]: 
+                appendList[1] = intervalVal[1]
         else:
-            currInterval = interval
-            returnList.append(currInterval)
+            returnList.append(appendList)
+            appendList = intervalVal
+    returnList.append(appendList)
+
     return returnList

@@ -2,14 +2,13 @@
 
 ## Problem
 
-You are given two integer arrays nums1 and nums2, sorted in non-decreasing order, and two integers m and n, representing the number of elements in nums1 and nums2 respectively.
+You are given two integer arrays `nums1` and `nums2`, sorted in non-decreasing order, and two integers `m` and `n`, representing the number of elements in `nums1` and `nums2` respectively.
 
-Merge nums1 and nums2 into a single array sorted in non-decreasing order.
+Merge `nums1` and `nums2` into a single array sorted in non-decreasing order.
 
 ## Things To Note
 
 Bear in mind that we're making all the changes in `nums1` because `nums1` is the size of both `nums1` and `nums2` (this is why we have those `m` and `n` values). We also know that everything should be in increasing order.
-
 
 ## Solution Explained
 
