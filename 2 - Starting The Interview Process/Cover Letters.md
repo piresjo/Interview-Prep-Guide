@@ -33,11 +33,11 @@ generic template.
 
 ## Step-By-Step Overview Of Cover Letter
 
-First, focus on the “what you’ll do” portion. The first few bullets are the most important. And we need to make sure that they’re addressed in our cover letter. Start highlighting the ones you have experience carrying out. 
+First, focus on the “what you’ll do” portion. The first few bullets are the most important. And we need to make sure that they’re addressed in our cover letter. Start highlighting the ones you have experience carrying out.
 
-Next, take a look at the qualifications. Note down the ones you can comfortably meet and ignore any you don’t. We also want to highlight the ‘preferred’ or ‘nice-to-have’ items listed in the job posting if you satisfy those. 
+Next, take a look at the qualifications. Note down the ones you can comfortably meet and ignore any you don’t. We also want to highlight the ‘preferred’ or ‘nice-to-have’ items listed in the job posting if you satisfy those.
 
-Create a table with two columns. In the left column jot down the highlighted skills you identified in the above section. And now in the right column, start writing down how you can match up to the advertised qualifications. 
+Create a table with two columns. In the left column jot down the highlighted skills you identified in the above section. And now in the right column, start writing down how you can match up to the advertised qualifications.
 
  You’re a great fit for the role. Now you have to convince them that you want to work there.
 
@@ -66,12 +66,12 @@ Use the first one or two sentences to make some statements about who you are, wh
 
 ### Summary Statement
 
-The first sentence summarizes what you will bring to the company. The second helps flow into the experiences you’re about to write about. 
+The first sentence summarizes what you will bring to the company. The second helps flow into the experiences you’re about to write about.
 
 Example:
 
 > Over the last 12 months, I’ve helped my company generate over $X in revenue by leading meetings with executive leaders and also built a variety of web applications on the side.
-> And now I’m excited to continue my journey by contributing and growing at Adyen. There are three things that make me the perfect fit for this position: 
+> And now I’m excited to continue my journey by contributing and growing at Adyen. There are three things that make me the perfect fit for this position:
 
 ### Skills And Qualifications
 
